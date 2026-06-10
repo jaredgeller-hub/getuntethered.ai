@@ -271,46 +271,20 @@
   .highlight p { font-size: 16px; }
   .highlight strong { color: var(--ink); }
 
-  /* Install steps */
-  .steps {
-    list-style: none;
-    counter-reset: step;
-    padding: 0;
-    margin: 28px 0;
+  /* Install button (on cream) */
+  .btn-install {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--bg);
+    padding: 14px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid var(--ink);
+    transition: background 0.15s ease, border-color 0.15s ease;
   }
-  .steps li {
-    counter-increment: step;
-    position: relative;
-    padding: 14px 0 14px 44px;
-    border-bottom: 1px solid var(--rule);
-    color: var(--ink-soft);
-  }
-  .steps li:last-child { border-bottom: none; }
-  .steps li::before {
-    content: counter(step);
-    position: absolute;
-    left: 0;
-    top: 14px;
-    width: 28px;
-    height: 28px;
-    border: 1px solid var(--rule);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--muted);
-    background: var(--bg);
-  }
-  .steps code {
-    background: var(--bg-soft);
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 14px;
-    color: var(--ink);
-  }
+  .btn-install:hover { background: #000; border-color: #000; }
 
   /* Footer */
   footer {
@@ -384,7 +358,7 @@
       <h1>See who's watching<br>when you shop.</h1>
       <p class="lead">A Chrome extension that quietly tells you which tracking and personalization software is running on a website — before you buy anything.</p>
 
-      <a href="#install" class="btn">Get the extension</a>
+      <a href="https://chromewebstore.google.com/detail/get-untethered-%E2%80%94-whos-wat/bmmecgckloocdhebkadhkhhcbhopcmbm" class="btn" target="_blank" rel="noopener">Add to Chrome</a>
       <a href="#what" class="btn btn-secondary">How it works</a>
       <span class="cta-note">Free. No account. Nothing leaves your browser.</span>
     </div>
@@ -447,18 +421,16 @@
   <!-- Install -->
   <section id="install">
     <h3>Install</h3>
-    <h2>Early access.</h2>
-    <p>Get Untethered is in early testing. It's not yet on the Chrome Web Store — for now, you install it manually from a small folder of files. It takes about a minute.</p>
+    <h2>One click.</h2>
+    <p>Get Untethered is on the Chrome Web Store. Add it to Chrome and the verdict dot appears in your toolbar — no setup, no account.</p>
 
-    <ol class="steps">
-      <li>Download the latest version: <a href="#" style="color: var(--ink); border-bottom: 1px solid var(--rule);">untethered-v1.3.zip</a> <span class="quiet">(replace with your download link)</span></li>
-      <li>Unzip the file somewhere you'll remember.</li>
-      <li>In Chrome, go to <code>chrome://extensions</code> and turn on <strong>Developer mode</strong> (top right).</li>
-      <li>Click <strong>Load unpacked</strong> and select the unzipped folder.</li>
-      <li>Pin the extension to your toolbar (puzzle-piece icon → pin Get Untethered) so the verdict dot is always visible.</li>
-    </ol>
+    <p style="margin: 24px 0;">
+      <a href="https://chromewebstore.google.com/detail/get-untethered-%E2%80%94-whos-wat/bmmecgckloocdhebkadhkhhcbhopcmbm" class="btn-install" target="_blank" rel="noopener">Add to Chrome</a>
+    </p>
 
-    <p class="quiet">Chrome will warn you that the extension can "read your browsing history." That permission is what lets it observe which trackers a page loads. It is not used to read, store, or transmit anything — see <a href="#privacy" style="color: var(--ink-soft); border-bottom: 1px solid var(--rule);">Privacy</a>.</p>
+    <p class="quiet">After installing, pin it to your toolbar (click the puzzle-piece icon, then pin Get Untethered) so the verdict dot is always visible.</p>
+
+    <p class="quiet">Chrome will ask permission for the extension to "read your browsing history." That permission is what lets it observe which trackers a page loads. It is not used to read, store, or transmit anything — see <a href="#privacy" style="color: var(--ink-soft); border-bottom: 1px solid var(--rule);">Privacy</a>.</p>
   </section>
 
   <!-- Privacy -->
