@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact your representative — Get Untethered</title>
+<meta name="description" content="Find your members of Congress and send them a letter written from a company's own public SEC filings.">
+<style>
+  :root{
+    --page:#070706; --card:#151310; --ink:#ece9e2; --muted:#6f6b63; --muted2:#a29d94;
+    --line:#2c2925; --red:#ec5a52; --green:#5fae6e; --btn-ink:#170808;
+    --mono:"JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--page); color:var(--ink); font-family:var(--mono);
+    padding:32px 16px 64px; line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:640px;margin:0 auto}
+  .wordmark{text-align:center;font-size:16px;font-weight:700;letter-spacing:.04em}
+  .wordmark .dot{color:var(--red);font-size:13px}
+  .subtitle{margin-top:5px;text-align:center;font-size:11px;letter-spacing:.14em;color:var(--muted)}
+
+  .card{
+    margin-top:24px;background:var(--card);border:1px solid var(--line);
+    border-radius:4px;padding:26px;box-shadow:0 18px 44px rgba(0,0,0,.38);
+  }
+  .rule{margin:18px 0;border-top:1px dashed var(--line)}
+
+  h1{font-size:19px;font-weight:700;letter-spacing:-.01em;line-height:1.35}
+  .lede{margin-top:10px;font-size:13px;color:var(--muted2);line-height:1.6}
+
+  /* the record this letter is built from — the receipt, restated compactly */
+  .record{margin-top:16px;font-size:12.5px;color:var(--muted2)}
+  .record .co{color:var(--ink);font-weight:700}
+  .record .fig{color:var(--red);font-weight:700}
+  .record.low .fig{color:var(--green)}
+
+  label{display:block;font-size:11px;letter-spacing:.12em;color:var(--muted);margin-bottom:8px}
+  .zrow{display:flex;gap:10px;flex-wrap:wrap}
+  input[type=text]{
+    flex:1;min-width:140px;background:#0d0c0a;border:1px solid var(--line);border-radius:6px;
+    color:var(--ink);font-family:inherit;font-size:15px;padding:12px 14px;letter-spacing:.08em;
+  }
+  input[type=text]:focus{outline:2px solid var(--red);outline-offset:1px;border-color:transparent}
+  button{font-family:inherit;cursor:pointer;border:none}
+  .go{
+    background:var(--red);color:var(--btn-ink);border-radius:6px;padding:12px 20px;
+    font-size:12.5px;font-weight:700;letter-spacing:.06em;
+  }
+  .go:hover{filter:brightness(1.06)}
+  .err{margin-top:10px;font-size:12px;color:var(--red);min-height:1em}
+
+  .pick{margin-top:14px;font-size:12px;color:var(--muted2)}
+  .pickrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .pickbtn{
+    background:#0d0c0a;border:1px solid var(--line);color:var(--ink);border-radius:6px;
+    padding:9px 13px;font-size:12px;
+  }
+  .pickbtn:hover{border-color:var(--muted)}
+  .pickbtn[aria-pressed=true]{border-color:var(--red);color:var(--red)}
+
+  .who{margin-top:6px}
+  .member{
+    display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+    padding:13px 0;border-bottom:1px dashed var(--line);
+  }
+  .member:last-child{border-bottom:none}
+  .mname{font-size:13.5px;font-weight:700}
+  .mmeta{font-size:11px;color:var(--muted);margin-top:3px}
+  .mact{display:flex;gap:8px;flex-shrink:0}
+  .mlink{
+    font-size:11px;font-weight:700;color:var(--ink);text-decoration:none;
+    border:1px solid var(--line);border-radius:6px;padding:7px 10px;white-space:nowrap;
+  }
+  .mlink:hover{border-color:var(--muted)}
+  .mlink.primary{background:var(--red);color:var(--btn-ink);border-color:var(--red)}
+  .tel{color:var(--muted2);text-decoration:none}
+  .tel:hover{color:var(--ink)}
+
+  .section{font-size:10.5px;letter-spacing:.14em;color:var(--muted);text-align:center}
+
+  textarea{
+    margin-top:14px;width:100%;min-height:270px;resize:vertical;
+    background:#0d0c0a;border:1px solid var(--line);border-radius:6px;color:var(--ink);
+    font-family:inherit;font-size:12.5px;line-height:1.65;padding:14px;
+  }
+  textarea:focus{outline:2px solid var(--red);outline-offset:1px;border-color:transparent}
+
+  .copy{
+    margin-top:12px;width:100%;background:var(--red);color:var(--btn-ink);border-radius:8px;
+    padding:13px;font-size:12.5px;font-weight:700;letter-spacing:.06em;
+  }
+  .copy:hover{filter:brightness(1.06)}
+  .copy.done{background:var(--green)}
+
+  .steps{margin-top:14px;font-size:11.5px;color:var(--muted);line-height:1.7}
+  .steps b{color:var(--muted2);font-weight:700}
+
+  .disclaimer{margin-top:18px;font-size:10.5px;line-height:1.55;color:var(--muted);text-align:center}
+  .hidden{display:none !important}
+  @media (prefers-reduced-motion:no-preference){
+    .card{animation:rise .3s ease-out both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="wordmark">GET UNTETHERED<span class="dot">&#9679;</span></div>
+  <div class="subtitle">TAX TRANSPARENCY RECORD</div>
+
+  <div class="card">
+    <h1 id="headline">Contact your representative</h1>
+    <p class="lede" id="lede">Congress writes the tax rules. Enter your ZIP code to find the three people who represent you, and send them a letter written from this company's own public filings.</p>
+
+    <div id="recordLine" class="record hidden"></div>
+
+    <div class="rule"></div>
+
+    <label for="zip">YOUR ZIP CODE</label>
+    <div class="zrow">
+      <input type="text" id="zip" inputmode="numeric" autocomplete="postal-code"
+             maxlength="5" placeholder="60601" aria-describedby="err">
+      <button class="go" id="go">FIND MY REPS</button>
+    </div>
+    <div class="err" id="err" role="status"></div>
+
+    <div id="pick" class="pick hidden">
+      <div>This ZIP code covers more than one House district. Which one are you in?</div>
+      <div class="pickrow" id="pickrow"></div>
+    </div>
+  </div>
+
+  <div class="card hidden" id="results">
+    <div class="section">YOUR MEMBERS OF CONGRESS</div>
+    <div class="who" id="who"></div>
+
+    <div class="rule"></div>
+
+    <div class="section">YOUR LETTER</div>
+    <textarea id="letter" aria-label="Your letter, editable"></textarea>
+    <button class="copy" id="copy">COPY LETTER</button>
+
+    <div class="steps">
+      <b>How this works:</b> Congress doesn't take email directly — every member uses their own
+      web form. Copy the letter, open a member's form, and paste it in. Takes about a minute each.
+      <br><br>
+      <b>Calling counts more.</b> Offices tally calls. If you only do one thing, call.
+    </div>
+
+    <div class="rule"></div>
+    <div class="disclaimer">Figures from public SEC filings and ITEP. We show what's on the public record &mdash; not a claim about what you personally paid.</div>
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let DATA = null, COMPANY = null, SENATORS = [], HOUSE = null, ZIP = "";
+
+function slugify(s){ return (s||"").toLowerCase().replace(/[^a-z0-9]/g, ""); }
+
+async function boot(){
+  const params = new URLSearchParams(location.search);
+  const slug = params.get("c");
+
+  const [reps, companies] = await Promise.all([
+    fetch("reps-data.json").then(r => r.json()).catch(() => null),
+    fetch("companies.json").then(r => r.json()).catch(() => null)
+  ]);
+  DATA = reps;
+
+  if (companies && slug){
+    for (const key in companies){
+      const e = companies[key];
+      if (slugify(e.name) === slug){ COMPANY = e; break; }
+    }
+  }
+  renderRecord();
+}
+
+// Restate the receipt's verdict in one line, so the letter's claims are visible
+// on the same screen as the letter itself.
+function renderRecord(){
+  if (!COMPANY) return;
+  const r = $("recordLine");
+  r.classList.remove("hidden");
+  if (COMPANY.verdict === "low") r.classList.add("low");
+  const bits = [];
+  bits.push(`<span class="co">${COMPANY.name}</span> paid <span class="fig">${COMPANY.ratePaid}</span> of the 21% full federal rate in ${(COMPANY.taxYearLabel||"").replace("TAX YEAR ","")}.`);
+  if (COMPANY.avoidedTaxes) bits.push(`Avoided taxes: <span class="fig">${COMPANY.avoidedTaxes}</span>.`);
+  if (COMPANY.buybacks) bits.push(`Stock buybacks: <span class="fig">${COMPANY.buybacks}</span>.`);
+  r.innerHTML = bits.join(" ");
+  $("headline").textContent = "Tell Congress about " + COMPANY.name;
+}
+
+function lookup(){
+  const z = $("zip").value.trim();
+  $("err").textContent = "";
+  $("pick").classList.add("hidden");
+  if (!/^\d{5}$/.test(z)){ $("err").textContent = "Enter a 5-digit ZIP code."; return; }
+  if (!DATA){ $("err").textContent = "Couldn't load the district data. Refresh and try again."; return; }
+  const districts = DATA.zips[z];
+  if (!districts || !districts.length){
+    $("err").textContent = "No congressional district found for that ZIP code. Check the digits.";
+    return;
+  }
+  ZIP = z;
+  const state = districts[0].split("-")[0];
+  SENATORS = DATA.senate[state] || [];
+
+  if (districts.length === 1){
+    HOUSE = DATA.house[districts[0]] || null;
+    show();
+  } else {
+    // A ZIP can straddle districts — we ask instead of guessing wrong.
+    const row = $("pickrow");
+    row.innerHTML = "";
+    districts.forEach(key => {
+      const m = DATA.house[key];
+      const b = document.createElement("button");
+      b.className = "pickbtn";
+      b.type = "button";
+      b.setAttribute("aria-pressed", "false");
+      b.textContent = m ? `${key} — ${m.name}` : key;
+      b.onclick = () => {
+        [...row.children].forEach(c => c.setAttribute("aria-pressed","false"));
+        b.setAttribute("aria-pressed","true");
+        HOUSE = m || null;
+        show();
+      };
+      row.appendChild(b);
+    });
+    $("pick").classList.remove("hidden");
+  }
+}
+
+function memberRow(m){
+  const seat = m.type === "sen"
+    ? `U.S. Senator — ${m.state}`
+    : `U.S. Representative — ${m.state}-${m.district}`;
+  const el = document.createElement("div");
+  el.className = "member";
+  el.innerHTML = `
+    <div>
+      <div class="mname">${m.name}</div>
+      <div class="mmeta">${seat}${m.party ? " · " + m.party : ""}${
+        m.phone ? ` · <a class="tel" href="tel:${m.phone}">${m.phone}</a>` : ""}</div>
+    </div>
+    <div class="mact">
+      ${m.url ? `<a class="mlink primary" href="${m.url}" target="_blank" rel="noopener">CONTACT FORM &rarr;</a>` : ""}
+    </div>`;
+  return el;
+}
+
+function show(){
+  const who = $("who");
+  who.innerHTML = "";
+  [...SENATORS, ...(HOUSE ? [HOUSE] : [])].forEach(m => who.appendChild(memberRow(m)));
+  $("letter").value = letterText();
+  $("results").classList.remove("hidden");
+  $("results").scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+// The letter only says what the record supports. It states plainly that the
+// company broke no law — that's the point, and it's what makes the ask land.
+function letterText(){
+  const c = COMPANY;
+  const L = [];
+  L.push("Dear Senator / Representative,");
+  L.push("");
+  L.push(`I'm a constituent writing from ZIP code ${ZIP}.`);
+  L.push("");
+  if (c){
+    const yr = (c.taxYearLabel || "").replace("TAX YEAR ", "");
+    L.push(`In tax year ${yr}, ${c.name} reported paying a federal income tax rate of ${c.ratePaid} on its U.S. profits. The full federal rate is 21%. That figure comes from the company's own public filings with the SEC.`);
+    if (c.avoidedTaxes){
+      L.push("");
+      L.push(`The difference between what it paid and the full federal rate is about ${c.avoidedTaxes}.`);
+    }
+    if (c.buybacks){
+      L.push("");
+      L.push(`In the same year, the company spent ${c.buybacks} buying back its own stock.`);
+    }
+    L.push("");
+    L.push(`${c.name} did not break any law. It used provisions that Congress wrote.`);
+  } else {
+    L.push("Large, profitable American companies routinely pay federal income tax rates far below the full 21% federal rate. Their own public SEC filings show it.");
+    L.push("");
+    L.push("These companies are not breaking the law. They are using provisions that Congress wrote.");
+  }
+  L.push("");
+  L.push("That's why I'm writing to you and not to them. Congress set these rules and Congress can change them. I'm asking you to support closing the corporate tax loopholes that let highly profitable companies pay a fraction of the full federal rate.");
+  L.push("");
+  L.push("Please let me know where you stand on this.");
+  L.push("");
+  L.push("Thank you,");
+  L.push("[Your name]");
+  L.push(`[Your street address, ${ZIP}]`);
+  return L.join("\n");
+}
+
+$("go").addEventListener("click", lookup);
+$("zip").addEventListener("keydown", e => { if (e.key === "Enter") lookup(); });
+$("copy").addEventListener("click", async () => {
+  const btn = $("copy");
+  try{
+    await navigator.clipboard.writeText($("letter").value);
+  }catch(e){
+    $("letter").select(); document.execCommand("copy");
+  }
+  btn.textContent = "COPIED — NOW OPEN A CONTACT FORM";
+  btn.classList.add("done");
+  setTimeout(() => { btn.textContent = "COPY LETTER"; btn.classList.remove("done"); }, 2600);
+});
+
+boot();
+</script>
+</body>
+</html>
