@@ -165,8 +165,10 @@ async function boot(){
   const slug = params.get("c");
 
   const [reps, companies] = await Promise.all([
-    fetch("reps-data.json").then(r => r.json()).catch(() => null),
-    fetch("companies.json").then(r => r.json()).catch(() => null)
+    // Absolute paths: the page is reachable as /act AND /act/, and a relative
+    // path resolves differently for each (the no-slash form looks at the site root).
+    fetch("/act/reps-data.json").then(r => r.json()).catch(() => null),
+    fetch("/act/companies.json").then(r => r.json()).catch(() => null)
   ]);
   DATA = reps;
 
