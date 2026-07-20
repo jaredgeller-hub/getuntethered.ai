@@ -30,7 +30,7 @@ python3 build_reps.py
 # 3. Sanity check: refuse to ship a truncated file. A normal run has ~100+
 #    live sites; if a network failure cut the run short, companies.json will be
 #    far smaller, and shipping it would blank out the extension for everyone.
-COUNT=$(python3 -c "import json; print(len(json.load(open('act/companies.json'))))")
+COUNT=$(python3 -c "import json; print(len(json.load(open('companies.json'))))")
 echo "companies.json has $COUNT sites"
 if [ "$COUNT" -lt 80 ]; then
   echo "ABORT: only $COUNT sites — looks like a failed/partial run. Not committing."
