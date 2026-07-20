@@ -1,0 +1,5053 @@
+{
+  "companies": {
+    "Waters": {
+      "format": "rate_only",
+      "itep_etr": 10.68,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Tax Credits",
+          "reduction": 6.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Walmart": {
+      "format": "full",
+      "itep_etr": 9.54,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 23.3,
+      "fedtaxB": 2.13,
+      "gapB": 2.76,
+      "fyEnd": "2026-01-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "vet_homeless",
+        "line": "10 months of federal veterans homelessness programs",
+        "detail": "VA homelessness programs: $3.2B/year"
+      },
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 1.8,
+          "unit": "billion"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 323.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 373.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "samsclub.com",
+        "walmart.com"
+      ],
+      "ticker": null
+    },
+    "Vontier": {
+      "format": "rate_only",
+      "itep_etr": 12.01,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 19.4,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 10.6,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 5.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 7.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Yelp": {
+      "format": "rate_only",
+      "itep_etr": 11.96,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 18.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 5.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 7.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "yelp.com"
+      ],
+      "ticker": null
+    },
+    "CarMax": {
+      "format": "rate_only",
+      "itep_etr": 8.1,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 65.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Transferable Tax Credits",
+          "reduction": 4.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "carmax.com"
+      ],
+      "ticker": null
+    },
+    "Visa": {
+      "format": "full",
+      "itep_etr": 11.87,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 14.8,
+      "fedtaxB": 1.88,
+      "gapB": 1.22,
+      "fyEnd": "2025-09-30",
+      "gapDerived": false,
+      "comparison": {
+        "program": "va_suicide",
+        "line": "2.1\u00d7 the annual VA suicide prevention budget",
+        "detail": "VA suicide prevention: $583M/year"
+      },
+      "breaks": [],
+      "domains": [
+        "visa.com"
+      ],
+      "ticker": null
+    },
+    "Bank of America": {
+      "format": "rate_only",
+      "itep_etr": 11.51,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [
+        "bankofamerica.com"
+      ],
+      "ticker": null
+    },
+    "ESAB": {
+      "format": "refund",
+      "itep_etr": -48.82,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 58.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 5.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 0.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "PennyMac Financial Services": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Wynn Resorts": {
+      "format": "refund",
+      "itep_etr": -0.15,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [
+        "wynn.com",
+        "wynnresorts.com"
+      ],
+      "ticker": null
+    },
+    "RH": {
+      "format": "rate_only",
+      "itep_etr": 9.09,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 45.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "rh.com"
+      ],
+      "ticker": null
+    },
+    "Cheniere Energy": {
+      "format": "refund",
+      "itep_etr": -5.5,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 818.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Venture Global": {
+      "format": "refund",
+      "itep_etr": -0.21,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 1.6,
+          "unit": "billion"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 82.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Macy's": {
+      "format": "rate_only",
+      "itep_etr": 13.96,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Tax Credits",
+          "reduction": 11.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "bloomingdales.com",
+        "macys.com"
+      ],
+      "ticker": null
+    },
+    "Dick's Sporting Goods": {
+      "format": "rate_only",
+      "itep_etr": 11.25,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 132.9,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 17.3,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "dickssportinggoods.com"
+      ],
+      "ticker": null
+    },
+    "NewMarket": {
+      "format": "rate_only",
+      "itep_etr": 11.68,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 17.9,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 5.3,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 3.7,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 3.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Ecolab": {
+      "format": "rate_only",
+      "itep_etr": 8.66,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 60.9,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 40.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 33.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Best Buy": {
+      "format": "rate_only",
+      "itep_etr": 14.44,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [
+        "bestbuy.com"
+      ],
+      "ticker": null
+    },
+    "Ameriprise Financial": {
+      "format": "rate_only",
+      "itep_etr": 14.34,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Stock Options",
+          "reduction": 61.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 46.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Nucor": {
+      "format": "rate_only",
+      "itep_etr": 14.25,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 195.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 9.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Datadog": {
+      "format": "refund",
+      "itep_etr": -5.62,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 65.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 9.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 24.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 95.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "American Electric Power": {
+      "format": "refund",
+      "itep_etr": -5.69,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 516.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Production Tax Credits",
+          "reduction": 244.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Solventum": {
+      "format": "refund",
+      "itep_etr": -4.14,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 87.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 16.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Petco Health and Wellness": {
+      "format": "refund",
+      "itep_etr": -74.24,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 13.4,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 1.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 10.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "BrightView Holdings": {
+      "format": "refund",
+      "itep_etr": -1.72,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 33.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 0.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Ameren": {
+      "format": "refund",
+      "itep_etr": -7.3,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 372.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Renewable Energy Credits",
+          "reduction": 61.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Victoria's Secret": {
+      "format": "rate_only",
+      "itep_etr": 14.68,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 11.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 4.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Jobs Tax Credit",
+          "reduction": 2.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "victoriassecret.com"
+      ],
+      "ticker": null
+    },
+    "Newmont": {
+      "format": "rate_only",
+      "itep_etr": 4.08,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 201.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Percentage Depletion",
+          "reduction": 83.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Vistance Networks": {
+      "format": "refund",
+      "itep_etr": -630.81,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 227.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 8.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 5.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 24.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "ServiceNow": {
+      "format": "rate_only",
+      "itep_etr": 2.86,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 111.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 311.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 53.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 66.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Kohl's": {
+      "format": "refund",
+      "itep_etr": -1.36,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 45.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 10.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "kohls.com"
+      ],
+      "ticker": null
+    },
+    "Packaging Corporation of America": {
+      "format": "rate_only",
+      "itep_etr": 11.53,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 84.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 3.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "T-Mobile US": {
+      "format": "full",
+      "itep_etr": 0.38,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 14.0,
+      "fedtaxB": 0.05,
+      "gapB": 2.89,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "vet_homeless",
+        "line": "11 months of federal veterans homelessness programs",
+        "detail": "VA homelessness programs: $3.2B/year"
+      },
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 525.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 286.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "metro.com",
+        "t-mobile.com"
+      ],
+      "ticker": null
+    },
+    "Leidos Holdings": {
+      "format": "rate_only",
+      "itep_etr": 0.27,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 331.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 22.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "EQT": {
+      "format": "refund",
+      "itep_etr": -0.27,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 276.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 61.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "ARKO": {
+      "format": "refund",
+      "itep_etr": -0.16,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Work Opportunity Credit",
+          "reduction": 0.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Section 30C Alternative Fuel Credit",
+          "reduction": 0.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 4.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "DocuSign": {
+      "format": "rate_only",
+      "itep_etr": 0.37,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 56.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 26.3,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "docusign.com"
+      ],
+      "ticker": null
+    },
+    "Webster Financial": {
+      "format": "rate_only",
+      "itep_etr": 12.53,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 29.3,
+          "unit": "million"
+        },
+        {
+          "tag": "Low-Income Housing Credits",
+          "reduction": 16.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax-Exempt Interest",
+          "reduction": 44.3,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "WEX": {
+      "format": "rate_only",
+      "itep_etr": 9.48,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 19.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Enphase Energy": {
+      "format": "rate_only",
+      "itep_etr": 4.36,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Section 45X Energy Credits",
+          "reduction": 50.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Domino's Pizza": {
+      "format": "rate_only",
+      "itep_etr": 14.91,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 16.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 3.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "dominos.com"
+      ],
+      "ticker": null
+    },
+    "Cincinnati Financial": {
+      "format": "rate_only",
+      "itep_etr": 6.69,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "CNX Resources": {
+      "format": "rate_only",
+      "itep_etr": 0.05,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 26.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 88.2,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 14.3,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 36.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Energy Credits",
+          "reduction": 36.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "APA": {
+      "format": "refund",
+      "itep_etr": -8.31,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 77.0,
+          "unit": "million"
+        },
+        {
+          "tag": " CAMT regulatory change",
+          "reduction": 71.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryover",
+          "reduction": 157.0,
+          "unit": "million"
+        },
+        {
+          "tag": "CAMT OBBBA change",
+          "reduction": 42.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Academy Sports": {
+      "format": "rate_only",
+      "itep_etr": 2.26,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 47.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 4.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "academy.com"
+      ],
+      "ticker": null
+    },
+    "Stagwell": {
+      "format": "rate_only",
+      "itep_etr": 4.75,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 4.3,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 1.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "SAIC": {
+      "format": "refund",
+      "itep_etr": -17.07,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 176.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 10.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 1.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Weis Markets": {
+      "format": "rate_only",
+      "itep_etr": 5.41,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 5.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 6.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 1.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Sylvamo": {
+      "format": "rate_only",
+      "itep_etr": 7.37,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 23.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 2.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 2.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Transferable Tax Credits",
+          "reduction": 1.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Fortive": {
+      "format": "rate_only",
+      "itep_etr": 9.34,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 51.2,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 10.9,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 0.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "BWX Technologies": {
+      "format": "rate_only",
+      "itep_etr": 13.7,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 6.9,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 17.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 5.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "SPX": {
+      "format": "rate_only",
+      "itep_etr": 6.42,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 32.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 2.4,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 4.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 7.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Pitney Bowes": {
+      "format": "refund",
+      "itep_etr": -6.64,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 23.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 2.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 9.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "HP": {
+      "format": "refund",
+      "itep_etr": -192.3,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 77.4,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 61.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "hp.com"
+      ],
+      "ticker": null
+    },
+    "NRG Energy": {
+      "format": "refund",
+      "itep_etr": -1.65,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 221.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 41.0,
+          "unit": "million"
+        },
+        {
+          "tag": " interest deduction carryforward",
+          "reduction": 51.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "AT&T": {
+      "format": "full",
+      "itep_etr": 4.6,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 27.0,
+      "fedtaxB": 0.97,
+      "gapB": 4.7,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "vet_homeless",
+        "line": "1.5\u00d7 the annual cost of federal veterans homelessness programs",
+        "detail": "VA homelessness programs: $3.2B/year"
+      },
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 1.0,
+          "unit": "billion"
+        }
+      ],
+      "domains": [
+        "att.com",
+        "directv.com"
+      ],
+      "ticker": null
+    },
+    "Walt Disney": {
+      "format": "refund",
+      "itep_etr": -1.57,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 264.1,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 108.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "disney.com",
+        "disneyplus.com",
+        "espn.com",
+        "hulu.com"
+      ],
+      "ticker": null
+    },
+    "Seaboard": {
+      "format": "refund",
+      "itep_etr": -219.82,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 27.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 6.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 6.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Investment Tax Credits",
+          "reduction": 11.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "V2X": {
+      "format": "refund",
+      "itep_etr": -0.16,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 14.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 9.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Saia": {
+      "format": "rate_only",
+      "itep_etr": 3.66,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 67.3,
+          "unit": "million"
+        },
+        {
+          "tag": "TaxCredits",
+          "reduction": 0.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Illumina": {
+      "format": "refund",
+      "itep_etr": -3.77,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 47.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 5.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 16.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Expand Energy": {
+      "format": "rate_only",
+      "itep_etr": 0.35,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 520.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 46.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 123.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "First Solar": {
+      "format": "rate_only",
+      "itep_etr": 0.28,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 44.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 106.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Section 45X Production Credit",
+          "reduction": 335.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 9.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Dropbox": {
+      "format": "refund",
+      "itep_etr": -2.24,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 72.9,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 19.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 13.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "dropbox.com"
+      ],
+      "ticker": null
+    },
+    "American Financial Group": {
+      "format": "rate_only",
+      "itep_etr": 8.71,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 35.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Dycom Industries": {
+      "format": "rate_only",
+      "itep_etr": 5.94,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 34.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 19.3,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 4.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Eversource Energy": {
+      "format": "rate_only",
+      "itep_etr": 4.2,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 387.1,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 22.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Harley-Davidson": {
+      "format": "rate_only",
+      "itep_etr": 1.98,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 9.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "harley-davidson.com"
+      ],
+      "ticker": null
+    },
+    "Mastec": {
+      "format": "refund",
+      "itep_etr": -11.38,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 289.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 23.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 20.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Teradata": {
+      "format": "refund",
+      "itep_etr": -15.19,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 6.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 5.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Upbound Group": {
+      "format": "refund",
+      "itep_etr": -16.09,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 97.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 3.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 1.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Costar Group": {
+      "format": "refund",
+      "itep_etr": -11.02,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 31.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 3.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Scotts Miracle-Gro": {
+      "format": "refund",
+      "itep_etr": -2.17,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 3.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Parsons": {
+      "format": "refund",
+      "itep_etr": -1.57,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 5.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "ASGN": {
+      "format": "refund",
+      "itep_etr": -1.16,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 17.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Work Opportunity Tax Credit",
+          "reduction": 1.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Huntington Ingalls Industries": {
+      "format": "refund",
+      "itep_etr": -0.64,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 163.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 8.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Workday": {
+      "format": "rate_only",
+      "itep_etr": 3.82,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 124.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 24.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 68.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "MasterBrand": {
+      "format": "refund",
+      "itep_etr": -3.34,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 10.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 2.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 1.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Liberty Energy": {
+      "format": "refund",
+      "itep_etr": -5.11,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 57.8,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 3.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "OGE Energy": {
+      "format": "rate_only",
+      "itep_etr": 5.21,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 98.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 2.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "PG&E Corp.": {
+      "format": "refund",
+      "itep_etr": -0.04,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Tax Credits",
+          "reduction": 26.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Spire": {
+      "format": "rate_only",
+      "itep_etr": 0.52,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 70.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 2.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "UGI": {
+      "format": "refund",
+      "itep_etr": -2.73,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 57.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Investment Tax Credits",
+          "reduction": 88.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "American Water Works": {
+      "format": "rate_only",
+      "itep_etr": 10.83,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 468.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Atmos Energy": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 285.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Sealed Air": {
+      "format": "refund",
+      "itep_etr": -77.86,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 58.9,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 3.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Telephone & Data Systems": {
+      "format": "refund",
+      "itep_etr": -0.03,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "United Airlines Holdings": {
+      "format": "refund",
+      "itep_etr": -0.09,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 643.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 358.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "united.com"
+      ],
+      "ticker": null
+    },
+    "Southwest Gas Holdings": {
+      "format": "refund",
+      "itep_etr": -0.01,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 98.9,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 2.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Brighthouse Financial": {
+      "format": "refund",
+      "itep_etr": -0.21,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Dexcom": {
+      "format": "rate_only",
+      "itep_etr": 3.87,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 161.4,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 13.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "dexcom.com"
+      ],
+      "ticker": null
+    },
+    "Delta Air Lines": {
+      "format": "rate_only",
+      "itep_etr": 0.16,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 799.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "delta.com"
+      ],
+      "ticker": null
+    },
+    "Kontoor Brands": {
+      "format": "rate_only",
+      "itep_etr": 2.46,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Tax Credits",
+          "reduction": 1.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Block": {
+      "format": "refund",
+      "itep_etr": -1.74,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 586.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 55.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "cash.app",
+        "square.com"
+      ],
+      "ticker": null
+    },
+    "GoDaddy": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 88.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 33.3,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 48.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "godaddy.com"
+      ],
+      "ticker": null
+    },
+    "Antero Resources": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 210.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "ArcBest": {
+      "format": "refund",
+      "itep_etr": -12.73,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 32.4,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 1.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "AdaptHealth": {
+      "format": "refund",
+      "itep_etr": -1.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 28.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryover",
+          "reduction": 25.3,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Autodesk": {
+      "format": "refund",
+      "itep_etr": -9.64,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 304.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 30.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 29.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "autodesk.com"
+      ],
+      "ticker": null
+    },
+    "Marathon Petroleum": {
+      "format": "rate_only",
+      "itep_etr": 14.3,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Tax Credits",
+          "reduction": 84.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Permian Resources": {
+      "format": "rate_only",
+      "itep_etr": 0.01,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Tax Credits",
+          "reduction": 90.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Duke Energy": {
+      "format": "refund",
+      "itep_etr": -10.19,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 687.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "KBR": {
+      "format": "refund",
+      "itep_etr": -4.13,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 10.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 8.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Graphic Packaging": {
+      "format": "refund",
+      "itep_etr": -0.2,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 86.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 91.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 8.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "California Resources": {
+      "format": "rate_only",
+      "itep_etr": 5.94,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Marginal Well Credit",
+          "reduction": 12.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Salesforce": {
+      "format": "full",
+      "itep_etr": 3.98,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 6.6,
+      "fedtaxB": 0.41,
+      "gapB": 0.98,
+      "fyEnd": "2026-01-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "va_suicide",
+        "line": "1.7\u00d7 the annual VA suicide prevention budget",
+        "detail": "VA suicide prevention: $583M/year"
+      },
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 487.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 188.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 368.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "salesforce.com"
+      ],
+      "ticker": null
+    },
+    "Cadence Design Systems": {
+      "format": "rate_only",
+      "itep_etr": 0.42,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 62.2,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 7.3,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 20.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 29.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Coinbase Global": {
+      "format": "refund",
+      "itep_etr": -1.8,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 19.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 173.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "coinbase.com"
+      ],
+      "ticker": null
+    },
+    "Textron": {
+      "format": "refund",
+      "itep_etr": -0.79,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 172.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 36.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "CVS Health": {
+      "format": "refund",
+      "itep_etr": -3.88,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Energy Credits",
+          "reduction": 76.0,
+          "unit": "million"
+        },
+        {
+          "tag": " Low Income Housing Credits",
+          "reduction": 25.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "cvs.com"
+      ],
+      "ticker": null
+    },
+    "Pinterest": {
+      "format": "rate_only",
+      "itep_etr": 0.03,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 137.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 9.4,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 76.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 4.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "pinterest.com"
+      ],
+      "ticker": null
+    },
+    "Expedia": {
+      "format": "rate_only",
+      "itep_etr": 0.54,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 184.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 69.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 45.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "expedia.com",
+        "hotels.com",
+        "hotwire.com",
+        "vrbo.com"
+      ],
+      "ticker": null
+    },
+    "Hasbro": {
+      "format": "refund",
+      "itep_etr": -0.96,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 116.5,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 4.2,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 6.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "hasbro.com"
+      ],
+      "ticker": null
+    },
+    "Matador Resources": {
+      "format": "rate_only",
+      "itep_etr": 0.67,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 234.1,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 11.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "SkyWest": {
+      "format": "rate_only",
+      "itep_etr": 0.86,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 82.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 11.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Portland General Electric": {
+      "format": "rate_only",
+      "itep_etr": 0.86,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 78.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Energy Credits",
+          "reduction": 48.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Alaska Air Group": {
+      "format": "rate_only",
+      "itep_etr": 1.07,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 192.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 6.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "alaskaair.com"
+      ],
+      "ticker": null
+    },
+    "Trimble": {
+      "format": "rate_only",
+      "itep_etr": 0.98,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 49.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 14.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "IAC": {
+      "format": "rate_only",
+      "itep_etr": 1.98,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 4.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 2.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Greenbrier": {
+      "format": "rate_only",
+      "itep_etr": 3.41,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 47.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 2.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Brink's": {
+      "format": "refund",
+      "itep_etr": -6.31,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 6.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 1.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Cummins": {
+      "format": "rate_only",
+      "itep_etr": 6.31,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 129.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 68.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 42.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 69.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Flowers Foods": {
+      "format": "rate_only",
+      "itep_etr": 8.47,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 18.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 1.9,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 2.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Ingredion": {
+      "format": "rate_only",
+      "itep_etr": 10.36,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 12.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 17.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Cracker Barrel Old Country Store": {
+      "format": "rate_only",
+      "itep_etr": 10.44,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": " Credit for FICA taxes on tips",
+          "reduction": 17.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "crackerbarrel.com"
+      ],
+      "ticker": null
+    },
+    "Nasdaq": {
+      "format": "rate_only",
+      "itep_etr": 8.03,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 43.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 51.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Energy Credits",
+          "reduction": 24.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 4.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "US Foods": {
+      "format": "rate_only",
+      "itep_etr": 11.01,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Tax Credits",
+          "reduction": 8.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Revvity": {
+      "format": "rate_only",
+      "itep_etr": 8.89,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 22.2,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 15.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Robert Half": {
+      "format": "rate_only",
+      "itep_etr": 8.09,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 25.6,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 2.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Work Opportunity Tax Credits",
+          "reduction": 4.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Builders FirstSource": {
+      "format": "rate_only",
+      "itep_etr": 12.36,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 8.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 16.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 5.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Energizer Holdings": {
+      "format": "rate_only",
+      "itep_etr": 5.94,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 1.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits and Incentives",
+          "reduction": 25.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "J.P. Morgan Chase & Co.": {
+      "format": "full",
+      "itep_etr": 5.68,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 56.2,
+      "fedtaxB": 3.11,
+      "gapB": 8.69,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "school_lunch",
+        "line": "School lunch for 16 million American children for an entire year",
+        "detail": "National School Lunch Program: $16.3B/year for 29.7M children"
+      },
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 2.7,
+          "unit": "billion"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 2.1,
+          "unit": "billion"
+        }
+      ],
+      "domains": [
+        "chase.com",
+        "jpmorgan.com"
+      ],
+      "ticker": null
+    },
+    "Factset": {
+      "format": "rate_only",
+      "itep_etr": 3.6,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 5.8,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 14.4,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 22.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 10.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Evergy": {
+      "format": "rate_only",
+      "itep_etr": 0.21,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 130.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Energy Credits",
+          "reduction": 57.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "L3Harris Technologies": {
+      "format": "refund",
+      "itep_etr": -0.61,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 449.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 35.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 226.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Advanced Manufacturing Credits",
+          "reduction": 22.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Winnebago Industries": {
+      "format": "refund",
+      "itep_etr": -3.56,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 0.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 3.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Paypal Holdings": {
+      "format": "refund",
+      "itep_etr": -8.09,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 362.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 99.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "3M": {
+      "format": "refund",
+      "itep_etr": -6.05,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 140.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Tax Credits",
+          "reduction": 44.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Coterra Energy": {
+      "format": "rate_only",
+      "itep_etr": 4.42,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 372.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Exelon": {
+      "format": "rate_only",
+      "itep_etr": 3.6,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 839.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Steel Dynamics": {
+      "format": "rate_only",
+      "itep_etr": 11.9,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 179.7,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 35.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Texas Roadhouse": {
+      "format": "rate_only",
+      "itep_etr": 7.18,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 26.1,
+          "unit": "million"
+        },
+        {
+          "tag": "FICA Tip Tax Credit",
+          "reduction": 49.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Work Opportunity Tax Credit",
+          "reduction": 4.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "texasroadhouse.com"
+      ],
+      "ticker": null
+    },
+    "Waste Management": {
+      "format": "rate_only",
+      "itep_etr": 6.11,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 306.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Low Income Housing Credit",
+          "reduction": 117.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Investment Tax Credits",
+          "reduction": 184.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "wm.com"
+      ],
+      "ticker": null
+    },
+    "Allison Transmission Holdings": {
+      "format": "rate_only",
+      "itep_etr": 12.22,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 54.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 13.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "BrightSpring Health Services": {
+      "format": "rate_only",
+      "itep_etr": 12.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 5.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 12.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Norfolk Southern": {
+      "format": "rate_only",
+      "itep_etr": 11.42,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 224.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "NiSource": {
+      "format": "refund",
+      "itep_etr": -2.64,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 133.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Chord Energy": {
+      "format": "rate_only",
+      "itep_etr": 5.39,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 114.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Fidelity National Financial": {
+      "format": "rate_only",
+      "itep_etr": 5.83,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Matson": {
+      "format": "rate_only",
+      "itep_etr": 13.45,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 46.1,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 13.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Vistra Corp": {
+      "format": "refund",
+      "itep_etr": -0.26,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 426.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 145.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Goldman Sachs Group": {
+      "format": "rate_only",
+      "itep_etr": 6.58,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Stock Options",
+          "reduction": 347.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Monster Beverage": {
+      "format": "rate_only",
+      "itep_etr": 13.68,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [
+        "monsterenergy.com"
+      ],
+      "ticker": null
+    },
+    "Match Group": {
+      "format": "rate_only",
+      "itep_etr": 4.29,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 28.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 39.6,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 14.6,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "hinge.co",
+        "match.com",
+        "okcupid.com",
+        "tinder.com"
+      ],
+      "ticker": null
+    },
+    "Liberty Media": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Stock Options",
+          "reduction": 4.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Sempra Energy": {
+      "format": "refund",
+      "itep_etr": -2.11,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 527.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Instacart": {
+      "format": "rate_only",
+      "itep_etr": 0.16,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 159.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 22.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 41.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 10.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "instacart.com"
+      ],
+      "ticker": null
+    },
+    "Xcel Energy": {
+      "format": "refund",
+      "itep_etr": -0.34,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 579.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Zoetis": {
+      "format": "rate_only",
+      "itep_etr": 5.66,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 28.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Molina Healthcare": {
+      "format": "rate_only",
+      "itep_etr": 7.07,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Lithia Motors": {
+      "format": "rate_only",
+      "itep_etr": 10.22,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 83.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Graham Holdings": {
+      "format": "rate_only",
+      "itep_etr": 2.87,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Lincoln Electric Holdings": {
+      "format": "rate_only",
+      "itep_etr": 3.2,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 81.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 7.1,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 8.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "UFP Industries": {
+      "format": "rate_only",
+      "itep_etr": 7.63,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 35.4,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 19.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 9.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Equifax": {
+      "format": "rate_only",
+      "itep_etr": 13.31,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 19.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 8.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Boise Cascade": {
+      "format": "rate_only",
+      "itep_etr": 9.26,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 20.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Oneok": {
+      "format": "rate_only",
+      "itep_etr": 1.11,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Kaiser Aluminum": {
+      "format": "refund",
+      "itep_etr": -1.03,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 9.3,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 50.6,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 6.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 10.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Louisiana-Pacific": {
+      "format": "rate_only",
+      "itep_etr": 5.39,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 26.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 9.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 3.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Patrick Industries": {
+      "format": "rate_only",
+      "itep_etr": 0.32,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 30.1,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 4.7,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 1.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 3.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Labcorp Holdings": {
+      "format": "rate_only",
+      "itep_etr": 9.13,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 96.5,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 39.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 16.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Williams": {
+      "format": "rate_only",
+      "itep_etr": 2.86,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 615.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 130.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "DTE Energy": {
+      "format": "refund",
+      "itep_etr": -17.42,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 257.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Targa Resources": {
+      "format": "rate_only",
+      "itep_etr": 0.5,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 382.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Knife River": {
+      "format": "rate_only",
+      "itep_etr": 10.75,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 108.3,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Alliant Energy": {
+      "format": "rate_only",
+      "itep_etr": 1.51,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 232.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "MDU Resources": {
+      "format": "rate_only",
+      "itep_etr": 12.34,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 25.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Southern": {
+      "format": "rate_only",
+      "itep_etr": 2.73,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 406.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Murphy USA": {
+      "format": "rate_only",
+      "itep_etr": 11.8,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 37.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "murphyusa.com"
+      ],
+      "ticker": null
+    },
+    "Humana": {
+      "format": "rate_only",
+      "itep_etr": 13.51,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 21.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Martin Marietta": {
+      "format": "rate_only",
+      "itep_etr": 11.74,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 45.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Honeywell International": {
+      "format": "refund",
+      "itep_etr": -12.3,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 29.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 155.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 214.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Paccar": {
+      "format": "rate_only",
+      "itep_etr": 2.18,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 365.8,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 60.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "DoorDash": {
+      "format": "refund",
+      "itep_etr": -0.06,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 297.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 135.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 30.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "doordash.com"
+      ],
+      "ticker": null
+    },
+    "Entergy": {
+      "format": "rate_only",
+      "itep_etr": 0.15,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 732.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "IDEX": {
+      "format": "rate_only",
+      "itep_etr": 12.94,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 42.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Trinity Industries": {
+      "format": "rate_only",
+      "itep_etr": 0.78,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 187.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Dream Finders Homes": {
+      "format": "rate_only",
+      "itep_etr": 5.43,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 4.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Dominion Energy": {
+      "format": "refund",
+      "itep_etr": -16.61,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 679.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Fortune Brands": {
+      "format": "rate_only",
+      "itep_etr": 7.95,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 23.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Mattel": {
+      "format": "rate_only",
+      "itep_etr": 5.23,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 7.9,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 7.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "mattel.com"
+      ],
+      "ticker": null
+    },
+    "Continental Resources": {
+      "format": "rate_only",
+      "itep_etr": 8.48,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 626.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Cheesecake Factory": {
+      "format": "rate_only",
+      "itep_etr": 7.6,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 9.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 1.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "thecheesecakefactory.com"
+      ],
+      "ticker": null
+    },
+    "Colgate-Palmolive": {
+      "format": "rate_only",
+      "itep_etr": 11.07,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 88.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Ball": {
+      "format": "rate_only",
+      "itep_etr": 12.61,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 233.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 34.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Citigroup": {
+      "format": "refund",
+      "itep_etr": -5.73,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [
+        "citi.com",
+        "citibank.com"
+      ],
+      "ticker": null
+    },
+    "Consolidated Edison": {
+      "format": "rate_only",
+      "itep_etr": 1.3,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 481.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Toast": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 66.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 17.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 70.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Etsy": {
+      "format": "refund",
+      "itep_etr": -0.24,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 41.5,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 17.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 3.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "etsy.com"
+      ],
+      "ticker": null
+    },
+    "ATI": {
+      "format": "rate_only",
+      "itep_etr": 6.58,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 13.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 7.3,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 6.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "IDEXX Laboratories": {
+      "format": "rate_only",
+      "itep_etr": 6.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 90.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 13.6,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 24.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Yum Brands": {
+      "format": "refund",
+      "itep_etr": -17.76,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 86.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 39.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 34.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "kfc.com",
+        "pizzahut.com",
+        "tacobell.com"
+      ],
+      "ticker": null
+    },
+    "Palantir Technologies": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 418.8,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 840.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 720.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Coca-Cola": {
+      "format": "rate_only",
+      "itep_etr": 1.55,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 87.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "coca-cola.com",
+        "coke.com"
+      ],
+      "ticker": null
+    },
+    "WEC Energy Group": {
+      "format": "refund",
+      "itep_etr": -14.52,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 496.3,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Paycom": {
+      "format": "rate_only",
+      "itep_etr": 0.13,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 9.2,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "eBay": {
+      "format": "rate_only",
+      "itep_etr": 9.88,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 40.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 21.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 97.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 32.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "ebay.com"
+      ],
+      "ticker": null
+    },
+    "Live Nation Entertainment": {
+      "format": "refund",
+      "itep_etr": -6.32,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [
+        "livenation.com",
+        "ticketmaster.com"
+      ],
+      "ticker": null
+    },
+    "Sherwin-Williams": {
+      "format": "rate_only",
+      "itep_etr": 12.57,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 103.9,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 50.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "AirBNB": {
+      "format": "rate_only",
+      "itep_etr": 2.96,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 166.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 121.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "airbnb.com"
+      ],
+      "ticker": null
+    },
+    "Morgan Stanley": {
+      "format": "rate_only",
+      "itep_etr": 14.59,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 360.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 167.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "CenterPoint Energy": {
+      "format": "rate_only",
+      "itep_etr": 4.4,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 225.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Cinemark Holdings": {
+      "format": "rate_only",
+      "itep_etr": 6.38,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 13.1,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 1.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Edison International": {
+      "format": "rate_only",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 336.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Exxon Mobil": {
+      "format": "rate_only",
+      "itep_etr": 1.31,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 546.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "exxon.com",
+        "exxonmobil.com",
+        "mobil.com"
+      ],
+      "ticker": null
+    },
+    "Devon Energy": {
+      "format": "rate_only",
+      "itep_etr": 8.35,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 582.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Republic Services": {
+      "format": "rate_only",
+      "itep_etr": 3.26,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 142.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "FirstEnergy": {
+      "format": "rate_only",
+      "itep_etr": 4.47,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 500.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Affiliated Managers Group": {
+      "format": "rate_only",
+      "itep_etr": 11.16,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Hershey": {
+      "format": "rate_only",
+      "itep_etr": 7.43,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 39.1,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 22.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Tesla": {
+      "format": "full",
+      "itep_etr": 0.0,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 4.77,
+      "fedtaxB": 0.0,
+      "gapB": 1.0,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "va_suicide",
+        "line": "1.7\u00d7 the annual VA suicide prevention budget",
+        "detail": "VA suicide prevention: $583M/year"
+      },
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 83.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 488.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 352.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 172.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "tesla.com"
+      ],
+      "ticker": null
+    },
+    "Alphabet": {
+      "format": "full",
+      "itep_etr": 8.01,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 143.6,
+      "gapB": 18.65,
+      "fyEnd": "2025-12-31",
+      "gapDerived": true,
+      "comparison": {
+        "program": "school_lunch",
+        "line": "More than the entire National School Lunch Program \u2014 which feeds 29.7 million American children every school day",
+        "detail": "$18.6B avoided taxes vs. $16.3B annual cost"
+      },
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 3.3,
+          "unit": "billion"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 3.9,
+          "unit": "billion"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 2.1,
+          "unit": "billion"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 2.6,
+          "unit": "billion"
+        }
+      ],
+      "domains": [
+        "docs.google.com",
+        "drive.google.com",
+        "gmail.com",
+        "google.com",
+        "maps.google.com",
+        "play.google.com",
+        "youtube.com"
+      ],
+      "ticker": null
+    },
+    "Meta": {
+      "format": "full",
+      "itep_etr": 3.57,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 79.6,
+      "fedtaxB": 2.82,
+      "gapB": 13.91,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "school_lunch",
+        "line": "School lunch for 25 million American children for an entire year",
+        "detail": "National School Lunch Program: $16.3B/year for 29.7M children"
+      },
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 12.6,
+          "unit": "billion"
+        },
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 4.9,
+          "unit": "billion"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 3.9,
+          "unit": "billion"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 4.3,
+          "unit": "billion"
+        }
+      ],
+      "domains": [
+        "facebook.com",
+        "instagram.com",
+        "messenger.com",
+        "threads.net",
+        "whatsapp.com"
+      ],
+      "ticker": null
+    },
+    "Amgen": {
+      "format": "rate_only",
+      "itep_etr": 11.71,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 222.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 272.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "NextEra Energy": {
+      "format": "rate_only",
+      "itep_etr": 3.25,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 816.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Roku": {
+      "format": "refund",
+      "itep_etr": -0.11,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 21.4,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "roku.com"
+      ],
+      "ticker": null
+    },
+    "Wesco International": {
+      "format": "rate_only",
+      "itep_etr": 10.98,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 11.7,
+          "unit": "million"
+        },
+        {
+          "tag": "Interest Deduction Carryforward",
+          "reduction": 1.1,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "CMS Energy": {
+      "format": "rate_only",
+      "itep_etr": 2.59,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 151.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Mettler Toledo": {
+      "format": "rate_only",
+      "itep_etr": 1.24,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 14.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Carrier Global": {
+      "format": "rate_only",
+      "itep_etr": 14.98,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 64.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Southwest Airlines": {
+      "format": "refund",
+      "itep_etr": -0.36,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 304.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 23.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "southwest.com"
+      ],
+      "ticker": null
+    },
+    "XPO": {
+      "format": "rate_only",
+      "itep_etr": 0.44,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 70.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Cisco Systems": {
+      "format": "rate_only",
+      "itep_etr": 10.61,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 666.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Baker Hughes": {
+      "format": "rate_only",
+      "itep_etr": 0.67,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 73.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Amazon.com": {
+      "format": "full",
+      "itep_etr": 1.37,
+      "dataSource": "ITEP+EDGAR",
+      "pretaxB": 89.5,
+      "fedtaxB": 1.22,
+      "gapB": 17.58,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "school_lunch",
+        "line": "More than the entire National School Lunch Program \u2014 which feeds 29.7 million American children every school day",
+        "detail": "$17.6B avoided taxes vs. $16.3B annual cost"
+      },
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 6.5,
+          "unit": "billion"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 2.4,
+          "unit": "billion"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 2.6,
+          "unit": "billion"
+        }
+      ],
+      "domains": [
+        "amazon.com",
+        "audible.com",
+        "imdb.com",
+        "twitch.tv",
+        "zappos.com"
+      ],
+      "ticker": null
+    },
+    "Biogen": {
+      "format": "refund",
+      "itep_etr": -6.66,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 276.7,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 31.3,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Texas Instruments": {
+      "format": "rate_only",
+      "itep_etr": 10.35,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 231.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 79.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 66.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "AptarGroup": {
+      "format": "rate_only",
+      "itep_etr": 5.11,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 5.2,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 2.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "MSCI": {
+      "format": "rate_only",
+      "itep_etr": 11.85,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "FDII Deduction",
+          "reduction": 33.5,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "RTX": {
+      "format": "rate_only",
+      "itep_etr": 1.2,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 182.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Elevance Health": {
+      "format": "rate_only",
+      "itep_etr": 13.27,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Halliburton": {
+      "format": "refund",
+      "itep_etr": -2.59,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 33.0,
+          "unit": "million"
+        },
+        {
+          "tag": "FDII Deduction",
+          "reduction": 135.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 50.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Mondelez International": {
+      "format": "rate_only",
+      "itep_etr": 13.91,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 98.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Intuitive Surgical": {
+      "format": "rate_only",
+      "itep_etr": 10.66,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 74.7,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 81.7,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Lockheed Martin": {
+      "format": "rate_only",
+      "itep_etr": 7.45,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 141.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 187.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "General Dynamics": {
+      "format": "rate_only",
+      "itep_etr": 8.48,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 180.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 43.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "General Motors": {
+      "format": "rate_only",
+      "itep_etr": 2.82,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Expensing",
+          "reduction": 407.0,
+          "unit": "million"
+        },
+        {
+          "tag": "R&D Credit",
+          "reduction": 478.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Other Tax Credits",
+          "reduction": 95.0,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "buick.com",
+        "cadillac.com",
+        "chevrolet.com",
+        "gmc.com"
+      ],
+      "ticker": null
+    },
+    "Sanmina": {
+      "format": "rate_only",
+      "itep_etr": 6.37,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Valvoline": {
+      "format": "rate_only",
+      "itep_etr": 9.05,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "Depreciation Deduction",
+          "reduction": 41.9,
+          "unit": "million"
+        }
+      ],
+      "domains": [],
+      "ticker": null
+    },
+    "Mosaic": {
+      "format": "refund",
+      "itep_etr": -0.14,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Shift4 Payments": {
+      "format": "rate_only",
+      "itep_etr": 2.45,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Everpure": {
+      "format": "rate_only",
+      "itep_etr": 0.79,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Ralph Lauren": {
+      "format": "rate_only",
+      "itep_etr": 11.87,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [
+        "polo.com",
+        "ralphlauren.com"
+      ],
+      "ticker": null
+    },
+    "Vertiv Holdings": {
+      "format": "rate_only",
+      "itep_etr": 14.69,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Valley National Bancorp": {
+      "format": "rate_only",
+      "itep_etr": 10.06,
+      "dataSource": "ITEP",
+      "breaks": [],
+      "domains": [],
+      "ticker": null
+    },
+    "Netflix": {
+      "format": "full",
+      "itep_etr": 10.82,
+      "dataSource": "EDGAR",
+      "pretaxB": 12.2,
+      "fedtaxB": 1.32,
+      "gapB": 1.24,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "va_suicide",
+        "line": "2.1\u00d7 the annual VA suicide prevention budget",
+        "detail": "VA suicide prevention: $583M/year"
+      },
+      "breaks": [],
+      "domains": [
+        "netflix.com"
+      ],
+      "ticker": null
+    },
+    "The Home Depot": {
+      "format": "full",
+      "itep_etr": 16.15,
+      "dataSource": "EDGAR",
+      "pretaxB": 17.4,
+      "fedtaxB": 2.81,
+      "gapB": 0.85,
+      "fyEnd": "2026-02-28",
+      "gapDerived": false,
+      "comparison": {
+        "program": "va_suicide",
+        "line": "1.5\u00d7 the annual VA suicide prevention budget",
+        "detail": "VA suicide prevention: $583M/year"
+      },
+      "breaks": [],
+      "domains": [
+        "homedepot.com"
+      ],
+      "ticker": null
+    },
+    "Uber": {
+      "format": "full",
+      "itep_etr": 3.48,
+      "dataSource": "EDGAR",
+      "pretaxB": 4.6,
+      "fedtaxB": 0.16,
+      "gapB": 0.81,
+      "fyEnd": "2025-12-31",
+      "gapDerived": false,
+      "comparison": {
+        "program": "va_suicide",
+        "line": "1.4\u00d7 the annual VA suicide prevention budget",
+        "detail": "VA suicide prevention: $583M/year"
+      },
+      "breaks": [],
+      "domains": [
+        "uber.com",
+        "ubereats.com"
+      ],
+      "ticker": null
+    },
+    "Starbucks": {
+      "format": "full",
+      "itep_etr": 9.47,
+      "dataSource": "EDGAR",
+      "pretaxB": 1.9,
+      "fedtaxB": 0.18,
+      "gapB": 0.21,
+      "fyEnd": "2025-09-30",
+      "gapDerived": false,
+      "comparison": {
+        "program": "va_suicide",
+        "line": "4 months of VA suicide prevention programs",
+        "detail": "VA suicide prevention: $583M/year"
+      },
+      "breaks": [],
+      "domains": [
+        "starbucks.com"
+      ],
+      "ticker": null
+    }
+  }
+}
