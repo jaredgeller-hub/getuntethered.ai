@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Get Untethered — See who's watching when you shop</title>
-<meta name="description" content="A Chrome extension that quietly shows you which tracking and personalization software is running on the sites you shop. No data collected. No accounts. No tracking of you.">
+<title>Get Untethered — See what corporations really pay in tax</title>
+<meta name="description" content="A Chrome extension that shows how little federal income tax large public companies actually paid — pulled from public SEC filings, shown on the sites where you shop. No account. No tracking of you.">
 <meta name="theme-color" content="#14110f">
 <style>
   :root {
@@ -355,12 +355,12 @@
       </svg>
     </div>
     <div class="hero-content">
-      <h1>See who's watching<br>when you shop.</h1>
-      <p class="lead">A Chrome extension that quietly tells you which tracking and personalization software is running on a website — before you buy anything.</p>
+      <h1>You pay your taxes.<br>It's time corporations paid theirs.</h1>
+      <p class="lead">Get Untethered shines a light on what big companies really pay in federal tax — pulled from public records, shown right where you shop.</p>
 
       <a href="https://chromewebstore.google.com/detail/get-untethered-%E2%80%94-whos-wat/bmmecgckloocdhebkadhkhhcbhopcmbm" class="btn" target="_blank" rel="noopener">Add to Chrome</a>
       <a href="#what" class="btn btn-secondary">How it works</a>
-      <span class="cta-note">Free. No account. Nothing leaves your browser.</span>
+      <span class="cta-note">Free. No account. We never track you.</span>
     </div>
   </div>
 </div>
@@ -368,29 +368,36 @@
 <!-- ============ CREAM CONTENT ============ -->
 <main class="wrap">
 
-  <!-- Verdicts (was inside the hero before) -->
+  <!-- Verdicts -->
   <section class="verdicts">
-    <p class="verdicts-intro">The verdict appears as a colored dot in your toolbar:</p>
+    <p class="verdicts-intro">The verdict appears as a colored icon in your toolbar:</p>
     <div class="dot-row" aria-label="Verdict examples">
       <div class="dot-item">
-        <div class="dot-lg green"></div>
+        <div class="dot-lg red"></div>
         <div class="dot-label">
-          <strong>Green</strong>
-          Just running the store
+          <strong>Red</strong>
+          High tax avoidance — paid a small fraction of the 21% rate
         </div>
       </div>
       <div class="dot-item">
         <div class="dot-lg amber"></div>
         <div class="dot-label">
-          <strong>Amber</strong>
-          You're being tracked
+          <strong>Yellow</strong>
+          Some tax avoidance — paid well under the full rate
+        </div>
+      </div>
+      <div class="dot-item">
+        <div class="dot-lg green"></div>
+        <div class="dot-label">
+          <strong>Green</strong>
+          Paid close to the full federal rate
         </div>
       </div>
       <div class="dot-item">
         <div class="dot-lg red"></div>
         <div class="dot-label">
-          <strong>Red</strong>
-          You're being personally profiled
+          <strong>Got money back</strong>
+          A negative rate — the company reported a federal refund
         </div>
       </div>
     </div>
@@ -399,23 +406,23 @@
   <!-- What it does -->
   <section id="what">
     <h3>What it does</h3>
-    <h2>A flashlight on the machinery.</h2>
-    <p>When you open a website, Get Untethered watches which third-party companies that site contacts in the background — the ad networks, behavior trackers, personalization engines, and identity-resolution services that most pages quietly load.</p>
-    <p>It looks each one up in a curated dictionary, groups them by what they actually do, and shows you a single traffic-light verdict in your toolbar. Click for the plain-language breakdown.</p>
-    <p>It's designed for the moment before you spend money — so you know what's running before you decide whether to give a company your business.</p>
+    <h2>The tax record, where you shop.</h2>
+    <p>Open a company's website — amazon.com, walmart.com, cvs.com, facebook.com — and Get Untethered shows you a Tax Transparency Record: the federal income tax rate that company actually paid, next to the 21% full federal rate, and the dollars involved where the filings report them.</p>
+    <p>The toolbar icon gives you the verdict at a glance. Click it for the full breakdown — the rate paid, the tax year, and what the company did with the money it kept, like stock buybacks.</p>
+    <p>Every figure comes from public records: the company's own filings with the Securities and Exchange Commission and analysis from the Institute on Taxation and Economic Policy.</p>
   </section>
 
   <!-- What it doesn't claim -->
   <section id="honest">
-    <h3>What it doesn't claim</h3>
-    <h2>It can't see the price.</h2>
-    <p>Surveillance pricing — companies charging different people different prices based on their data — is real, and it's spreading. But the actual pricing logic lives on the company's server, not in your browser. No tool running on your computer can prove you were charged more than someone else.</p>
+    <h3>The important part</h3>
+    <h2>It's legal. Congress wrote the rules.</h2>
+    <p>These companies didn't cheat. They used deductions, credits, and provisions that Congress wrote into the tax code — accelerated depreciation, stock-option deductions, credits carried across years. All of it legal. All of it on the public record.</p>
 
     <div class="highlight">
-      <p><strong>Get Untethered shows you what tracking and personalization software a site uses. It does not, and cannot, tell you that you were charged more.</strong> Think of it as a flashlight on the machinery — not a receipt for the overcharge.</p>
+      <p><strong>Get Untethered shows what companies paid, straight from their filings. It doesn't accuse anyone of breaking the law.</strong> The rules are the story — and Congress writes the rules.</p>
     </div>
 
-    <p class="quiet">That distinction matters. A red verdict means a site has loaded the kind of software used to profile and personalize. It's a warning, not a verdict on any specific transaction.</p>
+    <p class="quiet">That's why every record links you to a pre-written letter to your own members of Congress, built from that company's numbers. The fix isn't blaming the company for following the law. It's changing the law.</p>
   </section>
 
   <!-- Install -->
@@ -430,31 +437,31 @@
 
     <p class="quiet">After installing, pin it to your toolbar (click the puzzle-piece icon, then pin Get Untethered) so the verdict dot is always visible.</p>
 
-    <p class="quiet">Chrome will ask permission for the extension to "read your browsing history." That permission is what lets it observe which trackers a page loads. It is not used to read, store, or transmit anything — see <a href="#privacy" style="color: var(--ink-soft); border-bottom: 1px solid var(--rule);">Privacy</a>.</p>
+    <p class="quiet">Chrome will note the extension can "read your browsing history." That permission is simply what lets it see which company's site you're on, so it can show that company's record. It never stores or transmits anything about you or your browsing — see <a href="#privacy" style="color: var(--ink-soft); border-bottom: 1px solid var(--rule);">Privacy</a>.</p>
   </section>
 
   <!-- Privacy -->
   <section id="privacy">
     <h3>Privacy</h3>
-    <h2>Nothing leaves your browser.</h2>
-    <p>Get Untethered does not collect, store, or transmit any data about you, your browsing, or the sites you visit. It has no server. There is no account. There is no telemetry, analytics, or error reporting.</p>
+    <h2>We never track you.</h2>
+    <p>Get Untethered has no account, no telemetry, no analytics, and no error reporting. It does not build a profile of you, and it never sends your browsing history anywhere.</p>
 
-    <p>Everything the extension does happens locally in your browser:</p>
+    <p>Here is everything it does:</p>
     <ul style="color: var(--ink-soft); padding-left: 20px; margin: 16px 0 20px;">
-      <li style="margin-bottom: 8px;">It observes which third-party domains a page contacts.</li>
-      <li style="margin-bottom: 8px;">It looks each domain up in a dictionary bundled with the extension.</li>
-      <li style="margin-bottom: 8px;">It keeps a per-tab count in temporary session storage, which is cleared automatically when you close your browser.</li>
+      <li style="margin-bottom: 8px;">It reads the address of the site you're on, to see which company it is.</li>
+      <li style="margin-bottom: 8px;">It looks that company up in our public tax dataset — the same <code>companies.json</code> file published on this site — and shows you the record.</li>
+      <li style="margin-bottom: 8px;">It fetches that dataset from getuntethered.ai so the numbers stay current. That request carries no information about you.</li>
     </ul>
 
-    <p>The source is small and readable. If you'd like to verify any of the above, the code is the proof.</p>
+    <p>The dataset is public, the extension's source is small and readable, and the filings behind every number are a matter of public record. The code is the proof.</p>
   </section>
 
   <!-- About -->
   <section id="about">
     <h3>About</h3>
-    <h2>Turning consumers back into customers.</h2>
-    <p>A customer is someone a business has to earn. A consumer is a unit to be extracted from. Over the last decade, software has quietly converted one into the other — and most of that machinery runs invisibly in the background of websites you use every day.</p>
-    <p>Get Untethered is a small, independent project. It doesn't try to fix surveillance pricing or compete with the companies that use it. It just turns the lights on, so you can see what's there and decide for yourself.</p>
+    <h2>Public numbers, made visible.</h2>
+    <p>Every figure Get Untethered shows has been public for years — sitting in SEC filings almost no one reads. The gap between what these companies earn and what they pay in federal tax isn't a secret. It's just buried where you'd never look.</p>
+    <p>Get Untethered is a small, independent project. It doesn't accuse anyone of breaking the law, because they didn't. It puts the public record in front of you, on the sites where these companies ask for your money — and points you to the people who write the rules.</p>
     <p class="quiet">Built minimally, on purpose. No funding. No tracking. No agenda beyond the one stated here.</p>
   </section>
 
@@ -462,9 +469,9 @@
   <section id="terms">
     <h3>Terms</h3>
     <h2>The short version.</h2>
-    <p>Get Untethered is provided as-is, free of charge, for personal use. It's a small tool that classifies third-party domains using a curated dictionary; that dictionary is a best effort, will sometimes be incomplete, and may occasionally be wrong. Use the information it provides as a signal, not as a definitive judgment about any company.</p>
+    <p>Get Untethered is provided as-is, free of charge, for personal use. It reports figures drawn from public SEC filings and ITEP analysis. That data is a best effort, will sometimes be incomplete, and may occasionally be wrong. Where a company's numbers can't be established with confidence, the extension shows no record rather than guess. Use the information as a signal, not as a definitive judgment about any company.</p>
     <p>The extension carries no warranty and no guarantee of accuracy. By installing it, you accept that it may be updated, changed, or discontinued at any time.</p>
-    <p class="quiet">If you find a tracker we've classified incorrectly, or one we haven't classified at all, corrections are welcome.</p>
+    <p class="quiet">If you find a number that looks wrong, corrections are welcome — the underlying filings are public, and so is our reasoning.</p>
   </section>
 
 </main>
