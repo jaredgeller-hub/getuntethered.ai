@@ -186,7 +186,9 @@
       "itep_etr": 0.0,
       "dataSource": "ITEP",
       "breaks": [],
-      "domains": [],
+      "domains": [
+        "pennymac.com"
+      ],
       "ticker": null
     },
     "Wynn Resorts": {
@@ -366,7 +368,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "ameriprise.com"
+      ],
       "ticker": null
     },
     "Nucor": {
@@ -414,7 +418,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "datadoghq.com"
+      ],
       "ticker": null
     },
     "American Electric Power": {
@@ -433,7 +439,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "aep.com"
+      ],
       "ticker": null
     },
     "Solventum": {
@@ -476,7 +484,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "petco.com"
+      ],
       "ticker": null
     },
     "BrightView Holdings": {
@@ -514,7 +524,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "ameren.com"
+      ],
       "ticker": null
     },
     "Victoria's Secret": {
@@ -617,7 +629,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "servicenow.com"
+      ],
       "ticker": null
     },
     "Kohl's": {
@@ -796,7 +810,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "websterbank.com"
+      ],
       "ticker": null
     },
     "WEX": {
@@ -824,7 +840,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "enphase.com"
+      ],
       "ticker": null
     },
     "Domino's Pizza": {
@@ -1004,7 +1022,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "weismarkets.com"
+      ],
       "ticker": null
     },
     "Sylvamo": {
@@ -1179,7 +1199,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "nrg.com"
+      ],
       "ticker": null
     },
     "AT&T": {
@@ -1374,7 +1396,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "firstsolar.com"
+      ],
       "ticker": null
     },
     "Dropbox": {
@@ -1457,7 +1481,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "eversource.com"
+      ],
       "ticker": null
     },
     "Harley-Davidson": {
@@ -1540,7 +1566,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "rentacenter.com",
+        "acima.com"
+      ],
       "ticker": null
     },
     "Costar Group": {
@@ -1559,7 +1588,11 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "costar.com",
+        "apartments.com",
+        "homes.com"
+      ],
       "ticker": null
     },
     "Scotts Miracle-Gro": {
@@ -1573,7 +1606,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "scotts.com",
+        "miraclegro.com"
+      ],
       "ticker": null
     },
     "Parsons": {
@@ -1649,7 +1685,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "workday.com"
+      ],
       "ticker": null
     },
     "MasterBrand": {
@@ -1711,7 +1749,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "oge.com"
+      ],
       "ticker": null
     },
     "PG&E Corp.": {
@@ -1725,7 +1765,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "pge.com"
+      ],
       "ticker": null
     },
     "Spire": {
@@ -1744,7 +1786,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "spireenergy.com"
+      ],
       "ticker": null
     },
     "UGI": {
@@ -1763,7 +1807,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "ugi.com"
+      ],
       "ticker": null
     },
     "American Water Works": {
@@ -1777,7 +1823,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "amwater.com"
+      ],
       "ticker": null
     },
     "Atmos Energy": {
@@ -1791,7 +1839,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "atmosenergy.com"
+      ],
       "ticker": null
     },
     "Sealed Air": {
@@ -1858,7 +1908,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "swgas.com"
+      ],
       "ticker": null
     },
     "Brighthouse Financial": {
@@ -1917,7 +1969,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "wrangler.com"
+      ],
       "ticker": null
     },
     "Block": {
@@ -2017,7 +2071,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "adapthealth.com"
+      ],
       "ticker": null
     },
     "Autodesk": {
@@ -2057,7 +2113,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "marathonpetroleum.com"
+      ],
       "ticker": null
     },
     "Permian Resources": {
@@ -2085,7 +2143,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "duke-energy.com"
+      ],
       "ticker": null
     },
     "KBR": {
@@ -2411,7 +2471,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "portlandgeneral.com"
+      ],
       "ticker": null
     },
     "Alaska Air Group": {
@@ -2470,7 +2532,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "iac.com"
+      ],
       "ticker": null
     },
     "Greenbrier": {
@@ -2508,7 +2572,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "brinks.com"
+      ],
       "ticker": null
     },
     "Cummins": {
@@ -2537,7 +2603,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "cummins.com"
+      ],
       "ticker": null
     },
     "Flowers Foods": {
@@ -2625,7 +2693,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "nasdaq.com"
+      ],
       "ticker": null
     },
     "US Foods": {
@@ -2725,7 +2795,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "energizer.com"
+      ],
       "ticker": null
     },
     "J.P. Morgan Chase & Co.": {
@@ -2805,7 +2877,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "evergy.com"
+      ],
       "ticker": null
     },
     "L3Harris Technologies": {
@@ -2853,7 +2927,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "winnebago.com"
+      ],
       "ticker": null
     },
     "Paypal Holdings": {
@@ -2872,7 +2948,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "paypal.com",
+        "venmo.com"
+      ],
       "ticker": null
     },
     "3M": {
@@ -2891,7 +2970,11 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "3m.com",
+        "post-it.com",
+        "scotch-brand.com"
+      ],
       "ticker": null
     },
     "Coterra Energy": {
@@ -2919,7 +3002,13 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "exeloncorp.com",
+        "comed.com",
+        "peco.com",
+        "bge.com",
+        "pepco.com"
+      ],
       "ticker": null
     },
     "Steel Dynamics": {
@@ -3028,7 +3117,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "brightspringhealth.com"
+      ],
       "ticker": null
     },
     "Norfolk Southern": {
@@ -3056,7 +3147,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "nisource.com",
+        "nipsco.com"
+      ],
       "ticker": null
     },
     "Chord Energy": {
@@ -3116,7 +3210,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "vistracorp.com",
+        "txu.com"
+      ],
       "ticker": null
     },
     "Goldman Sachs Group": {
@@ -3130,7 +3227,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "goldmansachs.com",
+        "marcus.com"
+      ],
       "ticker": null
     },
     "Monster Beverage": {
@@ -3183,7 +3283,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "formula1.com"
+      ],
       "ticker": null
     },
     "Sempra Energy": {
@@ -3197,7 +3299,11 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "sempra.com",
+        "sdge.com",
+        "socalgas.com"
+      ],
       "ticker": null
     },
     "Instacart": {
@@ -3242,7 +3348,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "xcelenergy.com"
+      ],
       "ticker": null
     },
     "Zoetis": {
@@ -3256,7 +3364,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "zoetis.com"
+      ],
       "ticker": null
     },
     "Molina Healthcare": {
@@ -3264,7 +3374,9 @@
       "itep_etr": 7.07,
       "dataSource": "ITEP",
       "breaks": [],
-      "domains": [],
+      "domains": [
+        "molinahealthcare.com"
+      ],
       "ticker": null
     },
     "Lithia Motors": {
@@ -3278,7 +3390,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "lithia.com",
+        "driveway.com"
+      ],
       "ticker": null
     },
     "Graham Holdings": {
@@ -3286,7 +3401,9 @@
       "itep_etr": 2.87,
       "dataSource": "ITEP",
       "breaks": [],
-      "domains": [],
+      "domains": [
+        "kaplan.com"
+      ],
       "ticker": null
     },
     "Lincoln Electric Holdings": {
@@ -3353,7 +3470,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "equifax.com",
+        "myequifax.com"
+      ],
       "ticker": null
     },
     "Boise Cascade": {
@@ -3481,7 +3601,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "labcorp.com"
+      ],
       "ticker": null
     },
     "Williams": {
@@ -3514,7 +3636,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "dteenergy.com"
+      ],
       "ticker": null
     },
     "Targa Resources": {
@@ -3556,7 +3680,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "alliantenergy.com"
+      ],
       "ticker": null
     },
     "MDU Resources": {
@@ -3570,7 +3696,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "mdu.com"
+      ],
       "ticker": null
     },
     "Southern": {
@@ -3584,7 +3712,11 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "southerncompany.com",
+        "georgiapower.com",
+        "alabamapower.com"
+      ],
       "ticker": null
     },
     "Murphy USA": {
@@ -3614,7 +3746,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "humana.com"
+      ],
       "ticker": null
     },
     "Martin Marietta": {
@@ -3652,7 +3786,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "honeywell.com"
+      ],
       "ticker": null
     },
     "Paccar": {
@@ -3671,7 +3807,11 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "paccar.com",
+        "peterbilt.com",
+        "kenworth.com"
+      ],
       "ticker": null
     },
     "DoorDash": {
@@ -3711,7 +3851,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "entergy.com"
+      ],
       "ticker": null
     },
     "IDEX": {
@@ -3767,7 +3909,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "dominionenergy.com"
+      ],
       "ticker": null
     },
     "Fortune Brands": {
@@ -3781,7 +3925,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "fbin.com",
+        "moen.com"
+      ],
       "ticker": null
     },
     "Mattel": {
@@ -3851,7 +3998,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "colgate.com"
+      ],
       "ticker": null
     },
     "Ball": {
@@ -3895,7 +4044,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "coned.com"
+      ],
       "ticker": null
     },
     "Toast": {
@@ -3919,7 +4070,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "toasttab.com"
+      ],
       "ticker": null
     },
     "Etsy": {
@@ -3993,7 +4146,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "idexx.com"
+      ],
       "ticker": null
     },
     "Yum Brands": {
@@ -4045,7 +4200,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "palantir.com"
+      ],
       "ticker": null
     },
     "Coca-Cola": {
@@ -4076,7 +4233,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "wecenergygroup.com",
+        "we-energies.com"
+      ],
       "ticker": null
     },
     "Paycom": {
@@ -4090,7 +4250,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "paycom.com"
+      ],
       "ticker": null
     },
     "eBay": {
@@ -4151,7 +4313,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "sherwin-williams.com"
+      ],
       "ticker": null
     },
     "AirBNB": {
@@ -4191,7 +4355,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "morganstanley.com",
+        "etrade.com"
+      ],
       "ticker": null
     },
     "CenterPoint Energy": {
@@ -4205,7 +4372,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "centerpointenergy.com"
+      ],
       "ticker": null
     },
     "Cinemark Holdings": {
@@ -4224,7 +4393,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "cinemark.com"
+      ],
       "ticker": null
     },
     "Edison International": {
@@ -4238,7 +4409,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "edison.com",
+        "sce.com"
+      ],
       "ticker": null
     },
     "Exxon Mobil": {
@@ -4284,7 +4458,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "republicservices.com"
+      ],
       "ticker": null
     },
     "FirstEnergy": {
@@ -4298,7 +4474,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "firstenergycorp.com"
+      ],
       "ticker": null
     },
     "Affiliated Managers Group": {
@@ -4325,7 +4503,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "hershey.com",
+        "hersheys.com"
+      ],
       "ticker": null
     },
     "Tesla": {
@@ -4476,7 +4657,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "amgen.com"
+      ],
       "ticker": null
     },
     "NextEra Energy": {
@@ -4490,7 +4673,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "nexteraenergy.com",
+        "fpl.com"
+      ],
       "ticker": null
     },
     "Roku": {
@@ -4539,7 +4725,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "cmsenergy.com",
+        "consumersenergy.com"
+      ],
       "ticker": null
     },
     "Mettler Toledo": {
@@ -4567,7 +4756,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "carrier.com"
+      ],
       "ticker": null
     },
     "Southwest Airlines": {
@@ -4616,7 +4807,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "cisco.com",
+        "webex.com"
+      ],
       "ticker": null
     },
     "Baker Hughes": {
@@ -4689,7 +4883,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "biogen.com"
+      ],
       "ticker": null
     },
     "Texas Instruments": {
@@ -4713,7 +4909,9 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "ti.com"
+      ],
       "ticker": null
     },
     "AptarGroup": {
@@ -4768,7 +4966,10 @@
       "itep_etr": 13.27,
       "dataSource": "ITEP",
       "breaks": [],
-      "domains": [],
+      "domains": [
+        "elevancehealth.com",
+        "anthem.com"
+      ],
       "ticker": null
     },
     "Halliburton": {
@@ -4806,7 +5007,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "mondelezinternational.com",
+        "oreo.com"
+      ],
       "ticker": null
     },
     "Intuitive Surgical": {
@@ -4914,7 +5118,10 @@
           "unit": "million"
         }
       ],
-      "domains": [],
+      "domains": [
+        "valvoline.com",
+        "vioc.com"
+      ],
       "ticker": null
     },
     "Mosaic": {
@@ -4930,7 +5137,9 @@
       "itep_etr": 2.45,
       "dataSource": "ITEP",
       "breaks": [],
-      "domains": [],
+      "domains": [
+        "shift4.com"
+      ],
       "ticker": null
     },
     "Everpure": {
@@ -4965,7 +5174,9 @@
       "itep_etr": 10.06,
       "dataSource": "ITEP",
       "breaks": [],
-      "domains": [],
+      "domains": [
+        "valley.com"
+      ],
       "ticker": null
     },
     "Netflix": {
