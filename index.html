@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Get Untethered — See what corporations really pay in tax</title>
-<meta name="description" content="A Chrome extension that shows how little federal income tax large public companies actually paid — pulled from public SEC filings, shown on the sites where you shop. No account. No tracking of you.">
+<meta name="description" content="A Chrome extension that shows how little federal income tax large public companies actually paid — pulled from public SEC filings, shown on the sites you already use. No account. No tracking of you.">
 <meta name="theme-color" content="#14110f">
 <style>
   :root {
@@ -357,7 +357,7 @@
     </div>
     <div class="hero-content">
       <h1>You pay your taxes.<br>It's time corporations paid theirs.</h1>
-      <p class="lead">Get Untethered shines a light on what big companies really pay in federal tax — pulled from public records, shown right where you shop.</p>
+      <p class="lead">Get Untethered shines a light on what big companies really pay in federal tax — pulled from public records, shown on the sites you already use.</p>
 
       <a href="https://chromewebstore.google.com/detail/get-untethered-%E2%80%94-whos-wat/bmmecgckloocdhebkadhkhhcbhopcmbm" class="btn" target="_blank" rel="noopener">Add to Chrome</a>
       <a href="#what" class="btn btn-secondary">How it works</a>
@@ -407,8 +407,8 @@
   <!-- What it does -->
   <section id="what">
     <h3>What it does</h3>
-    <h2>The tax record, where you shop.</h2>
-    <p>Open a company's website — amazon.com, walmart.com, cvs.com, facebook.com — and Get Untethered shows you a Tax Transparency Record: the federal income tax rate that company actually paid, next to the 21% full federal rate, and the dollars involved where the filings report them.</p>
+    <h2>The tax record, where you already are.</h2>
+    <p>Open a company's website — where you shop, pay a bill, or read the news — and Get Untethered shows you a Tax Transparency Record: the federal income tax rate that company actually paid, next to the 21% full federal rate, and the dollars involved where the filings report them.</p>
     <p>The toolbar icon gives you the verdict at a glance. Click it for the full breakdown — the rate paid, the tax year, and what the company did with the money it kept, like stock buybacks.</p>
     <p>Every figure comes from public records: the company's own filings with the Securities and Exchange Commission and analysis from the Institute on Taxation and Economic Policy.</p>
   </section>
@@ -430,13 +430,13 @@
   <section id="install">
     <h3>Install</h3>
     <h2>One click.</h2>
-    <p>Get Untethered is on the Chrome Web Store. Add it to Chrome and the verdict dot appears in your toolbar — no setup, no account.</p>
+    <p>Get Untethered is on the Chrome Web Store. Add it to Chrome and the verdict icon appears in your toolbar — no setup, no account.</p>
 
     <p style="margin: 24px 0;">
       <a href="https://chromewebstore.google.com/detail/get-untethered-%E2%80%94-whos-wat/bmmecgckloocdhebkadhkhhcbhopcmbm" class="btn-install" target="_blank" rel="noopener">Add to Chrome</a>
     </p>
 
-    <p class="quiet">After installing, pin it to your toolbar (click the puzzle-piece icon, then pin Get Untethered) so the verdict dot is always visible.</p>
+    <p class="quiet">After installing, pin it to your toolbar (click the puzzle-piece icon, then pin Get Untethered) so the verdict is always visible.</p>
 
     <p class="quiet">Chrome will note the extension can "read your browsing history." That permission is simply what lets it see which company's site you're on, so it can show that company's record. It never stores or transmits anything about you or your browsing — see <a href="#privacy" style="color: var(--ink-soft); border-bottom: 1px solid var(--rule);">Privacy</a>.</p>
   </section>
@@ -445,7 +445,7 @@
   <section id="privacy">
     <h3>Privacy</h3>
     <h2>We never track you.</h2>
-    <p>Get Untethered has no account, no telemetry, no analytics, and no error reporting. It does not build a profile of you, and it never sends your browsing history anywhere.</p>
+    <p>The extension collects nothing about you &mdash; no account, no telemetry, no browsing history.</p>
 
     <p>Here is everything it does:</p>
     <ul style="color: var(--ink-soft); padding-left: 20px; margin: 16px 0 20px;">
@@ -453,6 +453,8 @@
       <li style="margin-bottom: 8px;">It looks that company up in our public tax dataset — the same <code>companies.json</code> file published on this site — and shows you the record.</li>
       <li style="margin-bottom: 8px;">It fetches that dataset from getuntethered.ai so the numbers stay current. That request carries no information about you.</li>
     </ul>
+
+    <p>On this site we count page views to see whether the tool is being used. No cookies, no personal data, nothing sold.</p>
 
     <p>The dataset is public, the extension's source is small and readable, and the filings behind every number are a matter of public record. The code is the proof.</p>
   </section>
@@ -471,11 +473,21 @@
     <h3>Support</h3>
     <h2>Common questions.</h2>
 
+    <p><strong>Why is almost every company red?</strong><br>
+    Partly because that&rsquo;s what the filings show. But it&rsquo;s also a function of
+    which companies are here. This set was built from published analyses of
+    corporate tax avoidance &mdash; work that starts by looking for large, profitable
+    companies paying low rates. So the mix skews toward avoidance by construction.</p>
+
+    <p>Read it as a set of individual records, each true on its own. Don&rsquo;t read
+    the overall mix as representative of American business, because it isn&rsquo;t a
+    random sample.</p>
+
     <p><strong>Why does this site show &ldquo;no public record&rdquo;?</strong><br>
-    Most likely we don&rsquo;t have that company yet. Get Untethered currently covers
-    around 230 websites belonging to 259 large public companies &mdash; a small slice
-    of the web. Private companies file nothing public, so they can&rsquo;t be covered at
-    all.</p>
+    Most likely we don&rsquo;t have that company yet. Get Untethered covers a few
+    hundred websites belonging to large companies that file with the SEC &mdash; a
+    small slice of the web. Private companies file nothing public, so they can&rsquo;t
+    be covered at all.</p>
 
     <p>It also appears on purpose. When a company&rsquo;s filings don&rsquo;t give a
     figure we can stand behind &mdash; the numbers are missing, or they produce a rate
@@ -523,6 +535,7 @@
     <div>© Get Untethered · getuntethered.ai</div>
     <div>
       <a href="#privacy">Privacy</a>
+      <a href="#support">Support</a>
       <a href="#terms">Terms</a>
       <a href="#about">About</a>
     </div>
