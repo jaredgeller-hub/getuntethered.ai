@@ -1,4 +1,17 @@
 {
+  "3m.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=3m",
+    "buybacks": "$3.3B",
+    "domain": "3m.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "3M",
+    "ratePaid": "\u22120.6%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: 3M reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
   "academy.com": {
     "actionUrl": "https://getuntethered.ai/act?c=academysports",
     "avoidedTaxes": "$90M",
@@ -13,6 +26,42 @@
     "ratePaidNum": 2.28,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
+  },
+  "acima.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=upboundgroup",
+    "domain": "acima.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Upbound Group",
+    "ratePaid": "\u221216.1%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Upbound Group reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "adapthealth.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=adapthealth",
+    "domain": "adapthealth.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "AdaptHealth",
+    "ratePaid": "\u22121.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: AdaptHealth reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "aep.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=americanelectricpower",
+    "domain": "aep.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "American Electric Power",
+    "ratePaid": "\u22125.7%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: American Electric Power reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
   },
   "airbnb.com": {
     "actionUrl": "https://getuntethered.ai/act?c=airbnb",
@@ -29,6 +78,18 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "alabamapower.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=southern",
+    "domain": "alabamapower.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Southern",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.7%",
+    "ratePaidNum": 2.73,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "alaskaair.com": {
     "actionUrl": "https://getuntethered.ai/act?c=alaskaairgroup",
     "buybacks": "$570M",
@@ -39,6 +100,18 @@
     "rateFractionLabel": "Less than a tenth",
     "ratePaid": "1.1%",
     "ratePaidNum": 1.07,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "alliantenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=alliantenergy",
+    "domain": "alliantenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Alliant Energy",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "1.5%",
+    "ratePaidNum": 1.51,
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
@@ -54,6 +127,96 @@
     "ratePaid": "1.4%",
     "ratePaidNum": 1.36,
     "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "ameren.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=ameren",
+    "domain": "ameren.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Ameren",
+    "ratePaid": "\u22127.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Ameren reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "ameriprise.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=ameriprisefinancial",
+    "avoidedTaxes": "$320M",
+    "buybacks": "$2.9B",
+    "domain": "ameriprise.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Ameriprise Financial",
+    "programComparison": "Roughly 7 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "13.7%",
+    "ratePaidNum": 13.73,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "amgen.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=amgen",
+    "avoidedTaxes": "$770M",
+    "domain": "amgen.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Amgen",
+    "programComparison": "About 1.3\u00d7 the annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "11.7%",
+    "ratePaidNum": 11.67,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "amwater.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=americanwaterworks",
+    "domain": "amwater.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "American Water Works",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "10.8%",
+    "ratePaidNum": 10.83,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "medium"
+  },
+  "anthem.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=elevancehealth",
+    "buybacks": "$2.6B",
+    "domain": "anthem.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Elevance Health",
+    "ratePaid": "15.8%",
+    "ratePaidNum": 15.82,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "low"
+  },
+  "apartments.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=costargroup",
+    "buybacks": "$500M",
+    "domain": "apartments.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Costar Group",
+    "ratePaid": "\u221211.5%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Costar Group reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "atmosenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=atmosenergy",
+    "domain": "atmosenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Atmos Energy",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.0%",
+    "ratePaidNum": 0.0,
+    "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
   "att.com": {
@@ -123,6 +286,34 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "low"
   },
+  "bge.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=exelon",
+    "avoidedTaxes": "$670M",
+    "domain": "bge.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Exelon",
+    "programComparison": "More than the entire annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "3.2%",
+    "ratePaidNum": 3.17,
+    "taxYearLabel": "TAX YEAR 2017",
+    "verdict": "high"
+  },
+  "biogen.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=biogen",
+    "avoidedTaxes": "$250M",
+    "domain": "biogen.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Biogen",
+    "programComparison": "Roughly 5 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.8%",
+    "ratePaidNum": 0.82,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
   "bloomingdales.com": {
     "actionUrl": "https://getuntethered.ai/act?c=macys",
     "buybacks": "$250M",
@@ -135,6 +326,34 @@
     "ratePaidNum": 13.96,
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "medium"
+  },
+  "brightspringhealth.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=brightspringhealthservices",
+    "avoidedTaxes": "$10M",
+    "buybacks": "$43M",
+    "domain": "brightspringhealth.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "BrightSpring Health Services",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "14.5%",
+    "ratePaidNum": 14.49,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "brinks.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=brinks",
+    "buybacks": "$209M",
+    "domain": "brinks.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Brink's",
+    "ratePaid": "\u22126.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Brink's reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
   },
   "buick.com": {
     "actionUrl": "https://getuntethered.ai/act?c=generalmotors",
@@ -175,6 +394,21 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "medium"
   },
+  "carrier.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=carrierglobal",
+    "avoidedTaxes": "$100M",
+    "buybacks": "$2.9B",
+    "domain": "carrier.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Carrier Global",
+    "programComparison": "Roughly 2 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "14.2%",
+    "ratePaidNum": 14.19,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "cash.app": {
     "actionUrl": "https://getuntethered.ai/act?c=block",
     "buybacks": "$2.3B",
@@ -187,6 +421,18 @@
     "refundNote": "A negative rate: Block reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "refund"
+  },
+  "centerpointenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=centerpointenergy",
+    "domain": "centerpointenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "CenterPoint Energy",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "4.4%",
+    "ratePaidNum": 4.4,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
   },
   "chase.com": {
     "actionUrl": "https://getuntethered.ai/act?c=jpmorganchaseco",
@@ -216,6 +462,33 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
+  "cinemark.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=cinemarkholdings",
+    "domain": "cinemark.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Cinemark Holdings",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "6.4%",
+    "ratePaidNum": 6.38,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "medium"
+  },
+  "cisco.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=ciscosystems",
+    "avoidedTaxes": "$1.0B",
+    "buybacks": "$6.0B",
+    "domain": "cisco.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Cisco Systems",
+    "programComparison": "About 1.8\u00d7 the annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "10.1%",
+    "ratePaidNum": 10.06,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "citi.com": {
     "actionUrl": "https://getuntethered.ai/act?c=citigroup",
     "buybacks": "$13.2B",
@@ -241,6 +514,20 @@
     "refundNote": "A negative rate: Citigroup reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "refund"
+  },
+  "cmsenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=cmsenergy",
+    "avoidedTaxes": "$120M",
+    "domain": "cmsenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "CMS Energy",
+    "programComparison": "Roughly 2 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "4.5%",
+    "ratePaidNum": 4.5,
+    "taxYearLabel": "TAX YEAR 2013",
+    "verdict": "high"
   },
   "coca-cola.com": {
     "actionUrl": "https://getuntethered.ai/act?c=cocacola",
@@ -285,6 +572,72 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "colgate.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=colgatepalmolive",
+    "buybacks": "$1.2B",
+    "domain": "colgate.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Colgate-Palmolive",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "11.1%",
+    "ratePaidNum": 11.07,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "medium"
+  },
+  "comed.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=exelon",
+    "avoidedTaxes": "$670M",
+    "domain": "comed.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Exelon",
+    "programComparison": "More than the entire annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "3.2%",
+    "ratePaidNum": 3.17,
+    "taxYearLabel": "TAX YEAR 2017",
+    "verdict": "high"
+  },
+  "coned.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=consolidatededison",
+    "domain": "coned.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Consolidated Edison",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "1.3%",
+    "ratePaidNum": 1.3,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "consumersenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=cmsenergy",
+    "avoidedTaxes": "$120M",
+    "domain": "consumersenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "CMS Energy",
+    "programComparison": "Roughly 2 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "4.5%",
+    "ratePaidNum": 4.5,
+    "taxYearLabel": "TAX YEAR 2013",
+    "verdict": "high"
+  },
+  "costar.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=costargroup",
+    "buybacks": "$500M",
+    "domain": "costar.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Costar Group",
+    "ratePaid": "\u221211.5%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Costar Group reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
   "crackerbarrel.com": {
     "actionUrl": "https://getuntethered.ai/act?c=crackerbarreloldcountrystore",
     "buybacks": "$17M",
@@ -298,6 +651,20 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "medium"
   },
+  "cummins.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=cummins",
+    "avoidedTaxes": "$240M",
+    "domain": "cummins.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Cummins",
+    "programComparison": "Roughly 5 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.3%",
+    "ratePaidNum": 7.3,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "cvs.com": {
     "actionUrl": "https://getuntethered.ai/act?c=cvshealth",
     "domain": "cvs.com",
@@ -308,6 +675,18 @@
     "ratePaidNum": 0,
     "refundNote": "A negative rate: CVS Health reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "datadoghq.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=datadog",
+    "domain": "datadoghq.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Datadog",
+    "ratePaid": "\u22125.6%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Datadog reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
     "verdict": "refund"
   },
   "delta.com": {
@@ -423,6 +802,19 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "dominionenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=dominionenergy",
+    "buybacks": "$3.1B",
+    "domain": "dominionenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Dominion Energy",
+    "ratePaid": "\u221216.6%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Dominion Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
   "dominos.com": {
     "actionUrl": "https://getuntethered.ai/act?c=dominospizza",
     "avoidedTaxes": "$50M",
@@ -465,6 +857,21 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "driveway.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=lithiamotors",
+    "avoidedTaxes": "$110M",
+    "buybacks": "$961M",
+    "domain": "driveway.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Lithia Motors",
+    "programComparison": "Roughly 2 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "10.6%",
+    "ratePaidNum": 10.58,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "dropbox.com": {
     "actionUrl": "https://getuntethered.ai/act?c=dropbox",
     "buybacks": "$1.7B",
@@ -476,6 +883,31 @@
     "ratePaidNum": 0,
     "refundNote": "A negative rate: Dropbox reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "dteenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=dteenergy",
+    "domain": "dteenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "DTE Energy",
+    "ratePaid": "\u221217.4%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: DTE Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "duke-energy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=dukeenergy",
+    "buybacks": "$1.5B",
+    "domain": "duke-energy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Duke Energy",
+    "ratePaid": "\u221210.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Duke Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
     "verdict": "refund"
   },
   "ebay.com": {
@@ -493,6 +925,86 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
+  "edison.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=edisoninternational",
+    "buybacks": "$32M",
+    "domain": "edison.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Edison International",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.0%",
+    "ratePaidNum": 0.0,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "elevancehealth.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=elevancehealth",
+    "buybacks": "$2.6B",
+    "domain": "elevancehealth.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Elevance Health",
+    "ratePaid": "15.8%",
+    "ratePaidNum": 15.82,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "low"
+  },
+  "energizer.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=energizerholdings",
+    "buybacks": "$90M",
+    "domain": "energizer.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Energizer Holdings",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "5.9%",
+    "ratePaidNum": 5.94,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "enphase.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=enphaseenergy",
+    "avoidedTaxes": "$20M",
+    "buybacks": "$130M",
+    "domain": "enphase.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Enphase Energy",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "4.8%",
+    "ratePaidNum": 4.79,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "entergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=entergy",
+    "domain": "entergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Entergy",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.1%",
+    "ratePaidNum": 0.15,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "equifax.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=equifax",
+    "avoidedTaxes": "$60M",
+    "buybacks": "$927M",
+    "domain": "equifax.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Equifax",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "12.8%",
+    "ratePaidNum": 12.82,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "espn.com": {
     "actionUrl": "https://getuntethered.ai/act?c=waltdisney",
     "buybacks": "$3.5B",
@@ -505,6 +1017,18 @@
     "refundNote": "A negative rate: Walt Disney reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "refund"
+  },
+  "etrade.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=morganstanley",
+    "buybacks": "$691M",
+    "domain": "etrade.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Morgan Stanley",
+    "ratePaid": "39.2%",
+    "ratePaidNum": 39.25,
+    "taxYearLabel": "TAX YEAR 2017",
+    "verdict": "low"
   },
   "etsy.com": {
     "actionUrl": "https://getuntethered.ai/act?c=etsy",
@@ -519,6 +1043,46 @@
     "ratePaid": "4.5%",
     "ratePaidNum": 4.55,
     "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "evergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=evergy",
+    "domain": "evergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Evergy",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.2%",
+    "ratePaidNum": 0.21,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "eversource.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=eversourceenergy",
+    "avoidedTaxes": "$310M",
+    "domain": "eversource.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Eversource Energy",
+    "programComparison": "Roughly 6 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "4.2%",
+    "ratePaidNum": 4.18,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "exeloncorp.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=exelon",
+    "avoidedTaxes": "$670M",
+    "domain": "exeloncorp.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Exelon",
+    "programComparison": "More than the entire annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "3.2%",
+    "ratePaidNum": 3.17,
+    "taxYearLabel": "TAX YEAR 2017",
     "verdict": "high"
   },
   "expedia.com": {
@@ -575,6 +1139,86 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "fbin.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=fortunebrands",
+    "avoidedTaxes": "$40M",
+    "buybacks": "$248M",
+    "domain": "fbin.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Fortune Brands",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.6%",
+    "ratePaidNum": 7.58,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "firstenergycorp.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=firstenergy",
+    "domain": "firstenergycorp.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "FirstEnergy",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "4.5%",
+    "ratePaidNum": 4.47,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "firstsolar.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=firstsolar",
+    "avoidedTaxes": "$360M",
+    "domain": "firstsolar.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "First Solar",
+    "programComparison": "Roughly 7 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.3%",
+    "ratePaidNum": 0.28,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "formula1.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=libertymedia",
+    "buybacks": "$37M",
+    "domain": "formula1.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Liberty Media",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.0%",
+    "ratePaidNum": 0.0,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "fpl.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=nexteraenergy",
+    "avoidedTaxes": "$340M",
+    "domain": "fpl.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "NextEra Energy",
+    "programComparison": "Roughly 7 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.7%",
+    "ratePaidNum": 7.7,
+    "taxYearLabel": "TAX YEAR 2013",
+    "verdict": "medium"
+  },
+  "georgiapower.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=southern",
+    "domain": "georgiapower.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Southern",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.7%",
+    "ratePaidNum": 2.73,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "gmail.com": {
     "actionUrl": "https://getuntethered.ai/act?c=alphabet",
     "avoidedTaxes": "$26.6B",
@@ -615,6 +1259,21 @@
     "ratePaidNum": 0.0,
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
+  },
+  "goldmansachs.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=goldmansachsgroup",
+    "avoidedTaxes": "$1.8B",
+    "buybacks": "$12.4B",
+    "domain": "goldmansachs.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Goldman Sachs Group",
+    "programComparison": "Roughly 7 months of federal veterans homelessness programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "8.1%",
+    "ratePaidNum": 8.14,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
   },
   "google.com": {
     "actionUrl": "https://getuntethered.ai/act?c=alphabet",
@@ -658,6 +1317,34 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "refund"
   },
+  "hershey.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=hershey",
+    "avoidedTaxes": "$160M",
+    "domain": "hershey.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Hershey",
+    "programComparison": "Roughly 3 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.1%",
+    "ratePaidNum": 7.06,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "hersheys.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=hershey",
+    "avoidedTaxes": "$160M",
+    "domain": "hersheys.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Hershey",
+    "programComparison": "Roughly 3 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.1%",
+    "ratePaidNum": 7.06,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "hinge.co": {
     "actionUrl": "https://getuntethered.ai/act?c=matchgroup",
     "avoidedTaxes": "$110M",
@@ -683,6 +1370,34 @@
     "ratePaidNum": 16.13,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "low"
+  },
+  "homes.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=costargroup",
+    "buybacks": "$500M",
+    "domain": "homes.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Costar Group",
+    "ratePaid": "\u221211.5%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Costar Group reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "honeywell.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=honeywellinternational",
+    "avoidedTaxes": "$30M",
+    "buybacks": "$3.8B",
+    "domain": "honeywell.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Honeywell International",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "13.1%",
+    "ratePaidNum": 13.14,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
   },
   "hotels.com": {
     "actionUrl": "https://getuntethered.ai/act?c=expedia",
@@ -726,6 +1441,48 @@
     "refundNote": "A negative rate: Walt Disney reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "refund"
+  },
+  "humana.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=humana",
+    "avoidedTaxes": "$180M",
+    "buybacks": "$151M",
+    "domain": "humana.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Humana",
+    "programComparison": "Roughly 4 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "8.8%",
+    "ratePaidNum": 8.75,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "iac.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=iac",
+    "domain": "iac.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "IAC",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "idexx.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=idexxlaboratories",
+    "avoidedTaxes": "$160M",
+    "buybacks": "$1.2B",
+    "domain": "idexx.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "IDEXX Laboratories",
+    "programComparison": "Roughly 3 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "5.9%",
+    "ratePaidNum": 5.86,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
   },
   "imdb.com": {
     "actionUrl": "https://getuntethered.ai/act?c=amazoncom",
@@ -784,6 +1541,34 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "kaplan.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=grahamholdings",
+    "buybacks": "$1M",
+    "domain": "kaplan.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Graham Holdings",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.9%",
+    "ratePaidNum": 2.87,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "kenworth.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=paccar",
+    "avoidedTaxes": "$400M",
+    "buybacks": "$36M",
+    "domain": "kenworth.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Paccar",
+    "programComparison": "Roughly 8 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.1%",
+    "ratePaidNum": 2.1,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
   "kfc.com": {
     "actionUrl": "https://getuntethered.ai/act?c=yumbrands",
     "buybacks": "$552M",
@@ -808,6 +1593,36 @@
     "refundNote": "A negative rate: Kohl's reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "refund"
+  },
+  "labcorp.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=labcorpholdings",
+    "avoidedTaxes": "$90M",
+    "buybacks": "$450M",
+    "domain": "labcorp.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Labcorp Holdings",
+    "programComparison": "Roughly 2 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "8.9%",
+    "ratePaidNum": 8.92,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "lithia.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=lithiamotors",
+    "avoidedTaxes": "$110M",
+    "buybacks": "$961M",
+    "domain": "lithia.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Lithia Motors",
+    "programComparison": "Roughly 2 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "10.6%",
+    "ratePaidNum": 10.58,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
   },
   "livenation.com": {
     "actionUrl": "https://getuntethered.ai/act?c=livenationentertainment",
@@ -850,6 +1665,36 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "marathonpetroleum.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=marathonpetroleum",
+    "avoidedTaxes": "$760M",
+    "buybacks": "$3.5B",
+    "domain": "marathonpetroleum.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Marathon Petroleum",
+    "programComparison": "About 1.3\u00d7 the annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "10.2%",
+    "ratePaidNum": 10.15,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "marcus.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=goldmansachsgroup",
+    "avoidedTaxes": "$1.8B",
+    "buybacks": "$12.4B",
+    "domain": "marcus.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Goldman Sachs Group",
+    "programComparison": "Roughly 7 months of federal veterans homelessness programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "8.1%",
+    "ratePaidNum": 8.14,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "match.com": {
     "actionUrl": "https://getuntethered.ai/act?c=matchgroup",
     "avoidedTaxes": "$110M",
@@ -879,6 +1724,20 @@
     "ratePaidNum": 5.03,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
+  },
+  "mdu.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=mduresources",
+    "avoidedTaxes": "$20M",
+    "domain": "mdu.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "MDU Resources",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "12.3%",
+    "ratePaidNum": 12.32,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
   },
   "messenger.com": {
     "actionUrl": "https://getuntethered.ai/act?c=meta",
@@ -910,6 +1769,19 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "miraclegro.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=scottsmiraclegro",
+    "buybacks": "$18M",
+    "domain": "miraclegro.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Scotts Miracle-Gro",
+    "ratePaid": "\u22122.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Scotts Miracle-Gro reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
   "mobil.com": {
     "actionUrl": "https://getuntethered.ai/act?c=exxonmobil",
     "domain": "mobil.com",
@@ -921,6 +1793,51 @@
     "ratePaidNum": 1.31,
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
+  },
+  "moen.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=fortunebrands",
+    "avoidedTaxes": "$40M",
+    "buybacks": "$248M",
+    "domain": "moen.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Fortune Brands",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.6%",
+    "ratePaidNum": 7.58,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "molinahealthcare.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=molinahealthcare",
+    "avoidedTaxes": "$70M",
+    "buybacks": "$1.0B",
+    "domain": "molinahealthcare.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Molina Healthcare",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "9.8%",
+    "ratePaidNum": 9.85,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "mondelezinternational.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=mondelezinternational",
+    "avoidedTaxes": "$60M",
+    "buybacks": "$2.4B",
+    "domain": "mondelezinternational.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Mondelez International",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "13.6%",
+    "ratePaidNum": 13.6,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
   },
   "monsterenergy.com": {
     "actionUrl": "https://getuntethered.ai/act?c=monsterbeverage",
@@ -937,6 +1854,18 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
+  "morganstanley.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=morganstanley",
+    "buybacks": "$691M",
+    "domain": "morganstanley.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Morgan Stanley",
+    "ratePaid": "39.2%",
+    "ratePaidNum": 39.25,
+    "taxYearLabel": "TAX YEAR 2017",
+    "verdict": "low"
+  },
   "murphyusa.com": {
     "actionUrl": "https://getuntethered.ai/act?c=murphyusa",
     "buybacks": "$650M",
@@ -948,6 +1877,36 @@
     "ratePaid": "11.8%",
     "ratePaidNum": 11.8,
     "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "medium"
+  },
+  "myequifax.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=equifax",
+    "avoidedTaxes": "$60M",
+    "buybacks": "$927M",
+    "domain": "myequifax.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Equifax",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "12.8%",
+    "ratePaidNum": 12.82,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "nasdaq.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=nasdaq",
+    "avoidedTaxes": "$230M",
+    "buybacks": "$616M",
+    "domain": "nasdaq.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Nasdaq",
+    "programComparison": "Roughly 5 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.8%",
+    "ratePaidNum": 7.75,
+    "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
   "netflix.com": {
@@ -965,6 +1924,69 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
+  "nexteraenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=nexteraenergy",
+    "avoidedTaxes": "$340M",
+    "domain": "nexteraenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "NextEra Energy",
+    "programComparison": "Roughly 7 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "7.7%",
+    "ratePaidNum": 7.7,
+    "taxYearLabel": "TAX YEAR 2013",
+    "verdict": "medium"
+  },
+  "nipsco.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=nisource",
+    "domain": "nipsco.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "NiSource",
+    "ratePaid": "\u22122.5%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: NiSource reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "nisource.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=nisource",
+    "domain": "nisource.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "NiSource",
+    "ratePaid": "\u22122.5%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: NiSource reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "nrg.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=nrgenergy",
+    "buybacks": "$1.3B",
+    "domain": "nrg.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "NRG Energy",
+    "ratePaid": "\u22121.6%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: NRG Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "oge.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=ogeenergy",
+    "domain": "oge.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "OGE Energy",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "5.2%",
+    "ratePaidNum": 5.21,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "okcupid.com": {
     "actionUrl": "https://getuntethered.ai/act?c=matchgroup",
     "avoidedTaxes": "$110M",
@@ -979,6 +2001,143 @@
     "ratePaidNum": 4.38,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
+  },
+  "oreo.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=mondelezinternational",
+    "avoidedTaxes": "$60M",
+    "buybacks": "$2.4B",
+    "domain": "oreo.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Mondelez International",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "13.6%",
+    "ratePaidNum": 13.6,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "paccar.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=paccar",
+    "avoidedTaxes": "$400M",
+    "buybacks": "$36M",
+    "domain": "paccar.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Paccar",
+    "programComparison": "Roughly 8 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.1%",
+    "ratePaidNum": 2.1,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "palantir.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=palantirtechnologies",
+    "buybacks": "$75M",
+    "domain": "palantir.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Palantir Technologies",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.0%",
+    "ratePaidNum": 0.0,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "paycom.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=paycom",
+    "buybacks": "$326M",
+    "domain": "paycom.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Paycom",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.1%",
+    "ratePaidNum": 0.13,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "paypal.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=paypalholdings",
+    "buybacks": "$6.1B",
+    "domain": "paypal.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Paypal Holdings",
+    "ratePaid": "\u22128.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Paypal Holdings reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "peco.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=exelon",
+    "avoidedTaxes": "$670M",
+    "domain": "peco.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Exelon",
+    "programComparison": "More than the entire annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "3.2%",
+    "ratePaidNum": 3.17,
+    "taxYearLabel": "TAX YEAR 2017",
+    "verdict": "high"
+  },
+  "pennymac.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=pennymacfinancialservices",
+    "buybacks": "$5M",
+    "domain": "pennymac.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "PennyMac Financial Services",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.0%",
+    "ratePaidNum": 0.0,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "pepco.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=exelon",
+    "avoidedTaxes": "$670M",
+    "domain": "pepco.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Exelon",
+    "programComparison": "More than the entire annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "3.2%",
+    "ratePaidNum": 3.17,
+    "taxYearLabel": "TAX YEAR 2017",
+    "verdict": "high"
+  },
+  "peterbilt.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=paccar",
+    "avoidedTaxes": "$400M",
+    "buybacks": "$36M",
+    "domain": "peterbilt.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Paccar",
+    "programComparison": "Roughly 8 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.1%",
+    "ratePaidNum": 2.1,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "pge.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=pgecorp",
+    "domain": "pge.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "PG&E Corp.",
+    "ratePaid": "\u22120.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: PG&E Corp. reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
   },
   "pinterest.com": {
     "actionUrl": "https://getuntethered.ai/act?c=pinterest",
@@ -1036,6 +2195,31 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
+  "portlandgeneral.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=portlandgeneralelectric",
+    "domain": "portlandgeneral.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Portland General Electric",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.9%",
+    "ratePaidNum": 0.86,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "post-it.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=3m",
+    "buybacks": "$3.3B",
+    "domain": "post-it.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "3M",
+    "ratePaid": "\u22120.6%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: 3M reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
   "ralphlauren.com": {
     "actionUrl": "https://getuntethered.ai/act?c=ralphlauren",
     "avoidedTaxes": "$20M",
@@ -1050,6 +2234,31 @@
     "ratePaidNum": 11.3,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
+  },
+  "rentacenter.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=upboundgroup",
+    "domain": "rentacenter.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Upbound Group",
+    "ratePaid": "\u221216.1%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Upbound Group reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "republicservices.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=republicservices",
+    "buybacks": "$870M",
+    "domain": "republicservices.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Republic Services",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "3.3%",
+    "ratePaidNum": 3.26,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
   },
   "rh.com": {
     "actionUrl": "https://getuntethered.ai/act?c=rh",
@@ -1109,6 +2318,141 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
+  "sce.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=edisoninternational",
+    "buybacks": "$32M",
+    "domain": "sce.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Edison International",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.0%",
+    "ratePaidNum": 0.0,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "scotch-brand.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=3m",
+    "buybacks": "$3.3B",
+    "domain": "scotch-brand.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "3M",
+    "ratePaid": "\u22120.6%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: 3M reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "scotts.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=scottsmiraclegro",
+    "buybacks": "$18M",
+    "domain": "scotts.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Scotts Miracle-Gro",
+    "ratePaid": "\u22122.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Scotts Miracle-Gro reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "sdge.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=sempraenergy",
+    "buybacks": "$58M",
+    "domain": "sdge.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Sempra Energy",
+    "ratePaid": "\u22121.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Sempra Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "sempra.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=sempraenergy",
+    "buybacks": "$58M",
+    "domain": "sempra.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Sempra Energy",
+    "ratePaid": "\u22121.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Sempra Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "servicenow.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=servicenow",
+    "avoidedTaxes": "$240M",
+    "buybacks": "$1.8B",
+    "domain": "servicenow.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "ServiceNow",
+    "programComparison": "Roughly 5 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.8%",
+    "ratePaidNum": 2.76,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "sherwin-williams.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=sherwinwilliams",
+    "avoidedTaxes": "$260M",
+    "buybacks": "$1.7B",
+    "domain": "sherwin-williams.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Sherwin-Williams",
+    "programComparison": "Roughly 5 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "12.4%",
+    "ratePaidNum": 12.39,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "shift4.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=shift4payments",
+    "avoidedTaxes": "$20M",
+    "buybacks": "$453M",
+    "domain": "shift4.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Shift4 Payments",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "1.8%",
+    "ratePaidNum": 1.83,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "socalgas.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=sempraenergy",
+    "buybacks": "$58M",
+    "domain": "socalgas.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Sempra Energy",
+    "ratePaid": "\u22121.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Sempra Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
+  "southerncompany.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=southern",
+    "domain": "southerncompany.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Southern",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "2.7%",
+    "ratePaidNum": 2.73,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "southwest.com": {
     "actionUrl": "https://getuntethered.ai/act?c=southwestairlines",
     "buybacks": "$2.5B",
@@ -1121,6 +2465,18 @@
     "refundNote": "A negative rate: Southwest Airlines reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "refund"
+  },
+  "spireenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=spire",
+    "domain": "spireenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Spire",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.5%",
+    "ratePaidNum": 0.52,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
   },
   "square.com": {
     "actionUrl": "https://getuntethered.ai/act?c=block",
@@ -1148,6 +2504,18 @@
     "ratePaidNum": 9.68,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
+  },
+  "swgas.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=southwestgasholdings",
+    "domain": "swgas.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Southwest Gas Holdings",
+    "ratePaid": "\u22120.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Southwest Gas Holdings reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
   },
   "t-mobile.com": {
     "actionUrl": "https://getuntethered.ai/act?c=tmobileus",
@@ -1232,6 +2600,21 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "ti.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=texasinstruments",
+    "avoidedTaxes": "$480M",
+    "buybacks": "$1.5B",
+    "domain": "ti.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Texas Instruments",
+    "programComparison": "Roughly 10 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "10.3%",
+    "ratePaidNum": 10.35,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
   "ticketmaster.com": {
     "actionUrl": "https://getuntethered.ai/act?c=livenationentertainment",
     "buybacks": "$24M",
@@ -1260,6 +2643,19 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "toasttab.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=toast",
+    "buybacks": "$107M",
+    "domain": "toasttab.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Toast",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "0.0%",
+    "ratePaidNum": 0.0,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "twitch.tv": {
     "actionUrl": "https://getuntethered.ai/act?c=amazoncom",
     "avoidedTaxes": "$17.6B",
@@ -1273,6 +2669,19 @@
     "ratePaidNum": 1.36,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
+  },
+  "txu.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=vistracorp",
+    "buybacks": "$1.0B",
+    "domain": "txu.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Vistra Corp",
+    "ratePaid": "\u22120.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Vistra Corp reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
   },
   "uber.com": {
     "actionUrl": "https://getuntethered.ai/act?c=uber",
@@ -1304,6 +2713,19 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "ugi.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=ugi",
+    "buybacks": "$33M",
+    "domain": "ugi.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "UGI",
+    "ratePaid": "\u22122.7%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: UGI reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
   "united.com": {
     "actionUrl": "https://getuntethered.ai/act?c=unitedairlinesholdings",
     "buybacks": "$637M",
@@ -1317,6 +2739,47 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "refund"
   },
+  "valley.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=valleynationalbancorp",
+    "buybacks": "$63M",
+    "domain": "valley.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Valley National Bancorp",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "10.1%",
+    "ratePaidNum": 10.06,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "medium"
+  },
+  "valvoline.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=valvoline",
+    "avoidedTaxes": "$30M",
+    "buybacks": "$77M",
+    "domain": "valvoline.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Valvoline",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "8.9%",
+    "ratePaidNum": 8.9,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "venmo.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=paypalholdings",
+    "buybacks": "$6.1B",
+    "domain": "venmo.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Paypal Holdings",
+    "ratePaid": "\u22128.0%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Paypal Holdings reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "refund"
+  },
   "victoriassecret.com": {
     "actionUrl": "https://getuntethered.ai/act?c=victoriassecret",
     "domain": "victoriassecret.com",
@@ -1327,6 +2790,21 @@
     "ratePaid": "14.7%",
     "ratePaidNum": 14.68,
     "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "medium"
+  },
+  "vioc.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=valvoline",
+    "avoidedTaxes": "$30M",
+    "buybacks": "$77M",
+    "domain": "vioc.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Valvoline",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "8.9%",
+    "ratePaidNum": 8.9,
+    "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
   "visa.com": {
@@ -1343,6 +2821,19 @@
     "ratePaidNum": 12.72,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
+  },
+  "vistracorp.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=vistracorp",
+    "buybacks": "$1.0B",
+    "domain": "vistracorp.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Vistra Corp",
+    "ratePaid": "\u22120.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Vistra Corp reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
   },
   "vrbo.com": {
     "actionUrl": "https://getuntethered.ai/act?c=expedia",
@@ -1374,6 +2865,73 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
+  "we-energies.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=wecenergygroup",
+    "buybacks": "$1M",
+    "domain": "we-energies.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "WEC Energy Group",
+    "ratePaid": "\u221214.5%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: WEC Energy Group reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "webex.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=ciscosystems",
+    "avoidedTaxes": "$1.0B",
+    "buybacks": "$6.0B",
+    "domain": "webex.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Cisco Systems",
+    "programComparison": "About 1.8\u00d7 the annual cost of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "10.1%",
+    "ratePaidNum": 10.06,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
+  },
+  "websterbank.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=websterfinancial",
+    "buybacks": "$594M",
+    "domain": "websterbank.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Webster Financial",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "12.5%",
+    "ratePaidNum": 12.53,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "medium"
+  },
+  "wecenergygroup.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=wecenergygroup",
+    "buybacks": "$1M",
+    "domain": "wecenergygroup.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "WEC Energy Group",
+    "ratePaid": "\u221214.5%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: WEC Energy Group reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "weismarkets.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=weismarkets",
+    "buybacks": "$140M",
+    "domain": "weismarkets.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Weis Markets",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "5.4%",
+    "ratePaidNum": 5.41,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "whatsapp.com": {
     "actionUrl": "https://getuntethered.ai/act?c=meta",
     "avoidedTaxes": "$13.9B",
@@ -1389,6 +2947,19 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "winnebago.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=winnebagoindustries",
+    "buybacks": "$54M",
+    "domain": "winnebago.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Winnebago Industries",
+    "ratePaid": "\u22123.6%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Winnebago Industries reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
   "wm.com": {
     "actionUrl": "https://getuntethered.ai/act?c=wastemanagement",
     "avoidedTaxes": "$500M",
@@ -1403,6 +2974,36 @@
     "ratePaidNum": 5.84,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
+  },
+  "workday.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=workday",
+    "avoidedTaxes": "$160M",
+    "buybacks": "$2.9B",
+    "domain": "workday.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Workday",
+    "programComparison": "Roughly 3 months of VA suicide prevention programs.",
+    "rateFractionLabel": "Less than a quarter",
+    "ratePaid": "3.6%",
+    "ratePaidNum": 3.61,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "wrangler.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=kontoorbrands",
+    "avoidedTaxes": "$10M",
+    "buybacks": "$25M",
+    "domain": "wrangler.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Kontoor Brands",
+    "programComparison": "Roughly 1 months of VA suicide prevention programs.",
+    "rateFractionLabel": "About two-thirds",
+    "ratePaid": "11.5%",
+    "ratePaidNum": 11.54,
+    "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "medium"
   },
   "wynn.com": {
     "actionUrl": "https://getuntethered.ai/act?c=wynnresorts",
@@ -1427,6 +3028,19 @@
     "ratePaid": "\u22120.1%",
     "ratePaidNum": 0,
     "refundNote": "A negative rate: Wynn Resorts reported a net federal tax benefit \u2014 it received money back rather than paying in.",
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "refund"
+  },
+  "xcelenergy.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=xcelenergy",
+    "buybacks": "$1M",
+    "domain": "xcelenergy.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Xcel Energy",
+    "ratePaid": "\u22120.3%",
+    "ratePaidNum": 0,
+    "refundNote": "A negative rate: Xcel Energy reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "refund"
   },
@@ -1472,6 +3086,19 @@
     "ratePaid": "1.4%",
     "ratePaidNum": 1.36,
     "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "zoetis.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=zoetis",
+    "buybacks": "$1.5B",
+    "domain": "zoetis.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "Zoetis",
+    "rateFractionLabel": "Less than half",
+    "ratePaid": "5.7%",
+    "ratePaidNum": 5.66,
+    "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   }
 }
