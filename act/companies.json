@@ -115,6 +115,19 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
+  "allrecipes.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "allrecipes.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "amazon.com": {
     "actionUrl": "https://getuntethered.ai/act?c=amazoncom",
     "avoidedTaxes": "$17.6B",
@@ -298,6 +311,19 @@
     "ratePaid": "3.2%",
     "ratePaidNum": 3.17,
     "taxYearLabel": "TAX YEAR 2017",
+    "verdict": "high"
+  },
+  "bhg.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "bhg.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
   "biogen.com": {
@@ -910,6 +936,19 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "refund"
   },
+  "eatingwell.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "eatingwell.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "ebay.com": {
     "actionUrl": "https://getuntethered.ai/act?c=ebay",
     "avoidedTaxes": "$150M",
@@ -1071,6 +1110,19 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "high"
   },
+  "ew.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "ew.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "exeloncorp.com": {
     "actionUrl": "https://getuntethered.ai/act?c=exelon",
     "avoidedTaxes": "$670M",
@@ -1178,6 +1230,19 @@
     "ratePaid": "0.3%",
     "ratePaidNum": 0.28,
     "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "foodandwine.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "foodandwine.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
   "formula1.com": {
@@ -1457,18 +1522,6 @@
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
   },
-  "iac.com": {
-    "actionUrl": "https://getuntethered.ai/act?c=iac",
-    "domain": "iac.com",
-    "federalRate": "21.0%",
-    "federalRateNum": 21.0,
-    "name": "IAC",
-    "rateFractionLabel": "Less than a tenth",
-    "ratePaid": "2.0%",
-    "ratePaidNum": 1.98,
-    "taxYearLabel": "TAX YEAR 2024",
-    "verdict": "high"
-  },
   "idexx.com": {
     "actionUrl": "https://getuntethered.ai/act?c=idexxlaboratories",
     "avoidedTaxes": "$160M",
@@ -1524,6 +1577,32 @@
     "ratePaid": "3.5%",
     "ratePaidNum": 3.54,
     "taxYearLabel": "TAX YEAR 2025",
+    "verdict": "high"
+  },
+  "instyle.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "instyle.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
+  "investopedia.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "investopedia.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
   "jpmorgan.com": {
@@ -2098,6 +2177,19 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
+  "people.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "people.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "pepco.com": {
     "actionUrl": "https://getuntethered.ai/act?c=exelon",
     "avoidedTaxes": "$670M",
@@ -2234,6 +2326,19 @@
     "ratePaidNum": 11.3,
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "medium"
+  },
+  "realsimple.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "realsimple.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
   },
   "rentacenter.com": {
     "actionUrl": "https://getuntethered.ai/act?c=upboundgroup",
@@ -2453,6 +2558,19 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
+  "southernliving.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "southernliving.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "southwest.com": {
     "actionUrl": "https://getuntethered.ai/act?c=southwestairlines",
     "buybacks": "$2.5B",
@@ -2656,6 +2774,19 @@
     "taxYearLabel": "TAX YEAR 2024",
     "verdict": "high"
   },
+  "travelandleisure.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "travelandleisure.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
+  },
   "twitch.tv": {
     "actionUrl": "https://getuntethered.ai/act?c=amazoncom",
     "avoidedTaxes": "$17.6B",
@@ -2779,6 +2910,19 @@
     "refundNote": "A negative rate: Paypal Holdings reported a net federal tax benefit \u2014 it received money back rather than paying in.",
     "taxYearLabel": "TAX YEAR 2025",
     "verdict": "refund"
+  },
+  "verywellhealth.com": {
+    "actionUrl": "https://getuntethered.ai/act?c=peopleincorporated",
+    "buybacks": "$315M",
+    "domain": "verywellhealth.com",
+    "federalRate": "21.0%",
+    "federalRateNum": 21.0,
+    "name": "People Incorporated",
+    "rateFractionLabel": "Less than a tenth",
+    "ratePaid": "2.0%",
+    "ratePaidNum": 1.98,
+    "taxYearLabel": "TAX YEAR 2024",
+    "verdict": "high"
   },
   "victoriassecret.com": {
     "actionUrl": "https://getuntethered.ai/act?c=victoriassecret",
