@@ -2516,27 +2516,6 @@
       "domains": [],
       "ticker": null
     },
-    "IAC": {
-      "format": "rate_only",
-      "itep_etr": 1.98,
-      "dataSource": "ITEP",
-      "breaks": [
-        {
-          "tag": "R&D Credit",
-          "reduction": 4.0,
-          "unit": "million"
-        },
-        {
-          "tag": "Stock Options",
-          "reduction": 2.8,
-          "unit": "million"
-        }
-      ],
-      "domains": [
-        "iac.com"
-      ],
-      "ticker": null
-    },
     "Greenbrier": {
       "format": "rate_only",
       "itep_etr": 3.41,
@@ -5257,6 +5236,38 @@
       "breaks": [],
       "domains": [
         "starbucks.com"
+      ],
+      "ticker": null
+    },
+    "People Incorporated": {
+      "format": "rate_only",
+      "itep_etr": 1.98,
+      "dataSource": "ITEP",
+      "breaks": [
+        {
+          "tag": "R&D Credit",
+          "reduction": 4.0,
+          "unit": "million"
+        },
+        {
+          "tag": "Stock Options",
+          "reduction": 2.8,
+          "unit": "million"
+        }
+      ],
+      "domains": [
+        "people.com",
+        "allrecipes.com",
+        "investopedia.com",
+        "foodandwine.com",
+        "travelandleisure.com",
+        "bhg.com",
+        "realsimple.com",
+        "southernliving.com",
+        "verywellhealth.com",
+        "eatingwell.com",
+        "ew.com",
+        "instyle.com"
       ],
       "ticker": null
     }

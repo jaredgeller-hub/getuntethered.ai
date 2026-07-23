@@ -95,19 +95,30 @@ TICKER_OVERRIDES = {
     "Petco Health and Wellness": "WOOF",
     "Kohl's": "KSS",
     "Domino's Pizza": "DPZ",
-    "ASGN": "ASGN",
+    # ASGN renamed itself Everforth, Inc. and moved from ticker ASGN to EFOR
+    # on 2026-04-24. Same CIK, same filings — only the ticker changed.
+    "ASGN": "EFOR",
     "Brink's": "BCO",
     "J.P. Morgan Chase & Co.": "JPM",
+    # Coterra merged into Devon Energy and was delisted 2026-05-07; CTRA no
+    # longer exists as a listed ticker, so this stays UNRESOLVED on purpose and
+    # the company keeps its last ITEP figures. Left here as a record of why.
     "Coterra Energy": "CTRA",
     "Instacart": "CART",
     "Colgate-Palmolive": "CL",
     "Sherwin-Williams": "SHW",
+    # IAC renamed itself People Incorporated and moved from ticker IAC to PPLI
+    # on 2026-06-04. Same CIK — only the name and ticker changed. The key here
+    # must match the company name in companies_config.json.
+    "People Incorporated": "PPLI",
     # Companies the auto-match got WRONG (matched to a similarly-named company):
     "IDEX": "IEX",
     "IDEXX Laboratories": "IDXX",
     "SAIC": "SAIC",
     "Mosaic": "MOS",
     "Seaboard": "SEB",
+    # Sealed Air was taken private by CD&R and delisted 2026-04-09. SEE is no
+    # longer a listed ticker — stays UNRESOLVED on purpose, keeps ITEP figures.
     "Sealed Air": "SEE",
     "Coca-Cola": "KO",
     # Companies strict matching skipped — pinned by ticker:
@@ -123,7 +134,6 @@ TICKER_OVERRIDES = {
     "ArcBest": "ARCB",
     "Graphic Packaging": "GPK",
     "Portland General Electric": "POR",
-    "IAC": "IAC",
     "Exxon Mobil": "XOM",
     "Greenbrier": "GBX",
     "US Foods": "USFD",
