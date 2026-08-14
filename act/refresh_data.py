@@ -232,8 +232,24 @@ def latest_annual(facts, tag, unit="USD"):
 
 
 def extract_edgar(cik):
-    """Returns dict of pretax income, federal tax, buybacks (in $B) + fy_end, or None."""
+    """Returns dict of pretax income, federal tax, buybacks (in $B) + fy_end, or None.
+
+    This is the live-HTTP path: one companyfacts request per company. The parse
+    lives in extract_from_facts() so the exact same logic can be fed facts loaded
+    from the SEC's bulk companyfacts.zip archive instead (see bulk_reader.py). The
+    split is deliberate — a single parse function means the archive can only ever
+    be a *source* change, never a behavior change, and validate_bulk.py proves it.
+    """
     facts = fetch_json(COMPANYFACTS_URL.format(cik=cik))
+    if not facts:
+        return None
+    return extract_from_facts(facts)
+
+
+def extract_from_facts(facts):
+    """Pure: identical logic, takes already-loaded companyfacts (from the API or
+    the bulk archive — the JSON is the same shape either way). Returns None on
+    empty facts, matching what extract_edgar() returns on a 404."""
     if not facts:
         return None
     out = {"pretaxB": None, "fedtaxB": None, "buybacksB": None, "fyEnd": None}
