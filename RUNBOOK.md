@@ -55,6 +55,8 @@ getuntethered.ai/
     ├── reps-data.json    OUTPUT — every member of Congress + ZIP lookup
     ├── companies_config.json   INPUT — the 259-company list, domains, ITEP rates
     ├── refresh_data.py   builds companies.json from SEC + ITEP
+    ├── bulk_reader.py    downloads/reads the SEC bulk companyfacts archive
+    ├── validate_bulk.py  proves the archive matches the per-company API
     ├── build_reps.py     builds reps-data.json
     ├── health_check.py   daily check that the live data is intact
     └── requirements.txt
@@ -88,6 +90,29 @@ log looks deceptively like success.
 ### Environment variables the cron needs
 - `GITHUB_TOKEN` — fine-grained token, Contents: Read and write, this repo only
 - `GIT_USER_NAME`, `GIT_USER_EMAIL`
+
+### Where the SEC numbers come from
+`refresh_data.py` makes **one** download of the SEC's nightly bulk archive
+(`companyfacts.zip`, ~1.3 GB, ~20,000 filers) and reads every company out of it,
+rather than making one HTTP request per company. This is what the SEC's
+fair-access policy asks callers to do. A full 259-company refresh now takes about
+a minute, nearly all of it the one download — the extraction itself is ~7 seconds.
+
+**The cron host needs ~1.5 GB of free scratch disk.** `refresh_all.sh` deletes
+the archive as soon as the generators finish, and it's gitignored, so it can't be
+committed. If a Render run ever fails on disk, `refresh_data.py --archive PATH`
+can point the download somewhere with more room.
+
+The archive is not a single point of failure:
+- A CIK that resolves but isn't in the archive falls back to a per-company HTTP
+  fetch (the archive rebuilds nightly, so a very new filer can lag it). The run
+  log lists any company that took this path.
+- If the archive can't be downloaded or opened at all, the whole run degrades to
+  the old per-company HTTP path — slower, same output — instead of failing.
+- `--no-bulk` forces that old path on demand.
+
+`validate_bulk.py` is the harness that proved the two sources agree; re-run it if
+you ever suspect the archive has drifted from the live API.
 
 ---
 

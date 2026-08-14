@@ -8,7 +8,8 @@ Pulls tax + buyback numbers for every company from the SEC's FREE public data
 WHAT IT DOES
   1. Reads companies_config.json (your company list + ITEP fallback figures).
   2. Resolves each company's SEC CIK from the SEC's free ticker file.
-  3. Pulls each company's XBRL "company facts" from data.sec.gov and extracts:
+  3. Downloads the SEC's nightly bulk companyfacts archive ONCE, then reads each
+     company's XBRL "company facts" out of it and extracts:
        - U.S. domestic pretax income   (IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic)
        - current federal tax           (CurrentFederalTaxExpenseBenefit)
        - stock buybacks                (PaymentsForRepurchaseOfCommonStock, with fallback)
@@ -16,6 +17,23 @@ WHAT IT DOES
      picks a scale comparison, and writes:
        - extraction-panel-data.json   (source of truth)
        - extraction-data.js           (what the extension loads)
+
+WHERE THE NUMBERS COME FROM
+  One download of companyfacts.zip (~1.3 GB), not one HTTP request per company.
+  The SEC's fair-access policy explicitly asks callers to prefer the bulk archive
+  over crawling, and it's what makes running against the full filer universe —
+  rather than a curated list — feasible later. validate_bulk.py proved the archive
+  and the per-company API produce byte-identical figures before this switch was
+  made; the parse (extract_from_facts) is literally the same function for both.
+
+  Two fallbacks keep the archive from becoming a single point of failure:
+    - CIK resolves but isn't in the archive -> per-company HTTP fetch for that one
+      company (the archive is rebuilt nightly; a very new filer can lag it).
+    - The archive can't be downloaded or opened at all -> every company falls back
+      to the old per-company HTTP path. Slower, but the run still produces data.
+  A company whose CIK doesn't resolve at all can't be fetched by EITHER mechanism
+  (the API is keyed by CIK), so it keeps its ITEP figures and is listed as
+  UNRESOLVED — exactly as before. Nothing is ever dropped from the output.
 
 WHERE IT RUNS
   Anywhere with internet access to the SEC (your laptop, or a Render cron job).
@@ -27,18 +45,29 @@ USAGE
   python3 refresh_data.py
 
   Optional flags:
-    --limit N     only process the first N companies (for a quick test run)
-    --verbose     print every company as it goes
+    --limit N         only process the first N companies (for a quick test run)
+    --verbose         print every company as it goes
+    --archive PATH    where to put/find companyfacts.zip (default: ./companyfacts.zip)
+    --reuse-archive   use an already-downloaded archive instead of re-downloading
+                      (for dev/testing — the cron should always fetch a fresh one)
+    --no-bulk         skip the archive entirely, use the old per-company HTTP path
+
+DISK
+  The archive is ~1.3 GB and is streamed to disk, not held in memory. It's
+  gitignored, and only ever read — never committed. The cron host needs that much
+  free scratch space; --archive can point it somewhere with room.
 
 RATE LIMITS
-  The SEC allows ~10 requests/sec. This script sleeps 0.2s between calls to stay
-  well under that. A full 259-company run takes a few minutes.
+  The SEC allows ~10 requests/sec. The bulk path makes ONE request for the whole
+  run, so rate limiting now only applies to fallback fetches, which still sleep
+  0.2s between calls.
 
 NOTE ON CEO PAY
   CEO / worker pay is deliberately NOT pulled here yet. See extract_ceo_pay()
   at the bottom for why, and the plan to add it safely.
 """
 
+import os
 import json
 import re
 import sys
@@ -50,6 +79,8 @@ try:
     import requests
 except ImportError:
     sys.exit("Missing dependency. Run:  pip install requests")
+
+from bulk_reader import download_archive, CompanyFactsArchive
 
 # ---------------------------------------------------------------------------
 # Config
@@ -234,11 +265,15 @@ def latest_annual(facts, tag, unit="USD"):
 def extract_edgar(cik):
     """Returns dict of pretax income, federal tax, buybacks (in $B) + fy_end, or None.
 
-    This is the live-HTTP path: one companyfacts request per company. The parse
-    lives in extract_from_facts() so the exact same logic can be fed facts loaded
-    from the SEC's bulk companyfacts.zip archive instead (see bulk_reader.py). The
-    split is deliberate — a single parse function means the archive can only ever
-    be a *source* change, never a behavior change, and validate_bulk.py proves it.
+    The live-HTTP path: one companyfacts request for one company. This is no longer
+    how the run sources its data — the bulk archive is (see extract_for) — but it
+    remains the per-company FALLBACK for anything the archive can't serve, and the
+    path validate_bulk.py diffs the archive against.
+
+    The parse lives in extract_from_facts() so the exact same logic can be fed facts
+    loaded from the bulk archive instead (see bulk_reader.py). The split is
+    deliberate — a single parse function means the archive can only ever be a
+    *source* change, never a behavior change, and validate_bulk.py proves it.
     """
     facts = fetch_json(COMPANYFACTS_URL.format(cik=cik))
     if not facts:
@@ -270,6 +305,56 @@ def extract_from_facts(facts):
             break
 
     return out
+
+
+# ---------------------------------------------------------------------------
+# Data source: the bulk archive, with a per-company HTTP fallback
+# ---------------------------------------------------------------------------
+
+def open_bulk_archive(path, reuse=False):
+    """Get the bulk companyfacts archive ready to read. Returns a
+    CompanyFactsArchive, or None if it couldn't be downloaded or opened.
+
+    None is not fatal on purpose. A failed 1.3 GB download on the quarterly cron
+    should degrade the run to the old per-company HTTP path — slow but correct —
+    rather than abort it or, far worse, silently drop every company back to ITEP
+    figures and ship a gutted companies.json.
+    """
+    try:
+        if reuse and os.path.exists(path):
+            print(f"Reusing existing archive: {path} "
+                  f"({os.path.getsize(path)} bytes)")
+        else:
+            download_archive(path)
+        archive = CompanyFactsArchive(path)
+    except Exception as e:
+        print(f"WARNING: bulk archive unavailable ({type(e).__name__}: {e})")
+        print("         Falling back to per-company HTTP fetches for EVERY company.")
+        print("         The run will be slow but the output is unaffected.")
+        return None
+
+    print(f"Archive indexes {len(archive)} companies.")
+    return archive
+
+
+def extract_for(cik, archive):
+    """Extract one company's figures. Returns (edgar_dict_or_None, source).
+
+    source is "bulk" when the archive served it and "http" when we fell back to a
+    per-company request — either because this CIK isn't in the archive (it rebuilds
+    nightly, so a brand-new filer can lag it) or because there's no archive at all.
+
+    Falling back rather than treating an archive miss as "no data" is the point:
+    an absent member must never be the reason a company loses its EDGAR figures.
+    """
+    if archive is not None:
+        facts = archive.get(cik)
+        if facts is not None:
+            return extract_from_facts(facts), "bulk"
+
+    edgar = extract_edgar(cik)
+    time.sleep(REQUEST_SLEEP)  # only fallbacks hit the SEC now; stay under 10/sec
+    return edgar, "http"
 
 
 # ---------------------------------------------------------------------------
@@ -501,7 +586,9 @@ def write_files(companies, domains, unresolved, no_data):
     meta = {
         "generated": datetime.utcnow().strftime("%Y-%m-%d"),
         "statutory_rate": STATUTORY_RATE,
-        "source_edgar": "SEC EDGAR XBRL companyfacts (data.sec.gov)",
+        "source_edgar": "SEC EDGAR XBRL companyfacts (bulk archive: "
+                        "sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip; "
+                        "per-company fallback: data.sec.gov)",
         "source_itep": "ITEP Corporate Tax Avoidance tracker (fallback effective rates)",
         "programs": {k: {"cost_b": v["cost_b"], "detail": v["detail"]} for k, v in PROGRAMS.items()},
         "counts": {"companies": len(companies), "unresolved": len(unresolved), "no_edgar_data": len(no_data)},
@@ -556,6 +643,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--verbose", action="store_true")
+    ap.add_argument("--archive", default="companyfacts.zip",
+                    help="where to put/find the bulk archive (default: ./companyfacts.zip)")
+    ap.add_argument("--reuse-archive", action="store_true",
+                    help="use an already-downloaded archive instead of re-downloading")
+    ap.add_argument("--no-bulk", action="store_true",
+                    help="skip the archive; use the old per-company HTTP path")
     args = ap.parse_args()
 
     config = json.load(open("companies_config.json"))
@@ -565,6 +658,12 @@ def main():
 
     print(f"Resolving CIKs from the SEC ticker file...")
     by_ticker, by_name = build_cik_index()
+
+    if args.no_bulk:
+        print("--no-bulk: using per-company HTTP fetches for every company.")
+        archive = None
+    else:
+        archive = open_bulk_archive(args.archive, reuse=args.reuse_archive)
 
     # First pass: resolve every CIK, then quarantine any CIK claimed by 2+ companies
     # (a duplicate almost always means a wrong name-match).
@@ -592,6 +691,9 @@ def main():
     companies_out = {}
     domains_out = {}
     unresolved, no_data, review = [], [], []
+    # How each company's figures were actually sourced. http_fallback is the list
+    # worth watching: a company there resolved a CIK the archive didn't carry.
+    from_bulk, http_fallback = [], []
 
     for i, (name, company) in enumerate(items, 1):
         cik = None if name in collided else resolved[name]
@@ -609,8 +711,8 @@ def main():
                 print(f"  [{i}/{len(items)}] {name:<30} UNRESOLVED (kept ITEP data)")
             continue
 
-        edgar = extract_edgar(cik)
-        time.sleep(REQUEST_SLEEP)
+        edgar, source = extract_for(cik, archive)
+        (from_bulk if source == "bulk" else http_fallback).append(name)
         if edgar is None:
             no_data.append(name)
         rec, reason = classify(company, edgar)
@@ -625,7 +727,7 @@ def main():
 
         if args.verbose:
             bb = rec.get("buybacksB")
-            print(f"  [{i}/{len(items)}] {name:<30} CIK {cik:<8} "
+            print(f"  [{i}/{len(items)}] {name:<30} CIK {cik:<8} src={source:<4} "
                   f"fmt={rec.get('format'):<9} etr={rec.get('etr')} buybacks={bb}")
 
     write_files(companies_out, domains_out, unresolved, no_data)
@@ -639,6 +741,16 @@ def main():
     print(f"Companies written : {len(companies_out)}")
     print(f"Domains written   : {len(domains_out)}")
     print(f"Buybacks found    : {sum(1 for c in companies_out.values() if c.get('buybacksB') is not None)}")
+    print(f"From bulk archive : {len(from_bulk)}")
+    print(f"HTTP fallback     : {len(http_fallback)}")
+    if http_fallback:
+        # Not an error — the fallback did its job. But a CIK the archive doesn't
+        # carry is worth knowing about, and a long list here means something
+        # changed about the archive rather than about these companies.
+        print(f"\nFetched over HTTP ({len(http_fallback)}) — CIK resolved but not "
+              f"served by the archive:")
+        for n in http_fallback:
+            print(f"  - {n}")
     if unresolved:
         print(f"\nUNRESOLVED ({len(unresolved)}) — add a ticker to TICKER_OVERRIDES for each:")
         for n in unresolved:

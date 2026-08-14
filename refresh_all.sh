@@ -9,6 +9,11 @@
 #   GITHUB_TOKEN  — a GitHub token with permission to push to the repo
 #   GIT_USER_NAME, GIT_USER_EMAIL — identity for the commit
 #
+# DISK: refresh_data.py now downloads the SEC's ~1.3 GB bulk companyfacts archive
+# once instead of making one HTTP request per company. The job needs that much
+# free scratch space in $WORKDIR. It's deleted below as soon as the run is done,
+# and it's gitignored, so it can never be committed.
+#
 # Both JSON files are written into act/ because that's what the site serves and
 # what the extension fetches. There is no second copy to keep in sync anymore.
 
@@ -26,6 +31,10 @@ cd "$WORKDIR/repo"
 cd act
 python3 refresh_data.py --verbose
 python3 build_reps.py
+
+# Drop the bulk archive as soon as we're done reading it — no reason to carry
+# 1.3 GB through the rest of the job.
+rm -f companyfacts.zip
 
 # 3. Sanity check: refuse to ship a truncated file. A normal run has ~100+
 #    live sites; if a network failure cut the run short, companies.json will be
