@@ -1844,25 +1844,6 @@
       ],
       "ticker": null
     },
-    "Sealed Air": {
-      "format": "refund",
-      "itep_etr": -77.86,
-      "dataSource": "ITEP",
-      "breaks": [
-        {
-          "tag": "R&D Expensing",
-          "reduction": 58.9,
-          "unit": "million"
-        },
-        {
-          "tag": "Depreciation Deduction",
-          "reduction": 3.5,
-          "unit": "million"
-        }
-      ],
-      "domains": [],
-      "ticker": null
-    },
     "Telephone & Data Systems": {
       "format": "refund",
       "itep_etr": -0.03,
@@ -2954,20 +2935,6 @@
         "post-it.com",
         "scotch-brand.com"
       ],
-      "ticker": null
-    },
-    "Coterra Energy": {
-      "format": "rate_only",
-      "itep_etr": 4.42,
-      "dataSource": "ITEP",
-      "breaks": [
-        {
-          "tag": "Depreciation Deduction",
-          "reduction": 372.0,
-          "unit": "million"
-        }
-      ],
-      "domains": [],
       "ticker": null
     },
     "Exelon": {

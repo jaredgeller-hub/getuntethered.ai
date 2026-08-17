@@ -131,10 +131,6 @@ TICKER_OVERRIDES = {
     "ASGN": "EFOR",
     "Brink's": "BCO",
     "J.P. Morgan Chase & Co.": "JPM",
-    # Coterra merged into Devon Energy and was delisted 2026-05-07; CTRA no
-    # longer exists as a listed ticker, so this stays UNRESOLVED on purpose and
-    # the company keeps its last ITEP figures. Left here as a record of why.
-    "Coterra Energy": "CTRA",
     "Instacart": "CART",
     "Colgate-Palmolive": "CL",
     "Sherwin-Williams": "SHW",
@@ -148,9 +144,6 @@ TICKER_OVERRIDES = {
     "SAIC": "SAIC",
     "Mosaic": "MOS",
     "Seaboard": "SEB",
-    # Sealed Air was taken private by CD&R and delisted 2026-04-09. SEE is no
-    # longer a listed ticker — stays UNRESOLVED on purpose, keeps ITEP figures.
-    "Sealed Air": "SEE",
     "Coca-Cola": "KO",
     # Companies strict matching skipped — pinned by ticker:
     "Waters": "WAT",
@@ -165,7 +158,10 @@ TICKER_OVERRIDES = {
     "ArcBest": "ARCB",
     "Graphic Packaging": "GPK",
     "Portland General Electric": "POR",
-    "Exxon Mobil": "XOM",
+    # "Exxon Mobil": "XOM" was here. Removed deliberately: TICKER_OVERRIDES is
+    # checked BEFORE CIK_OVERRIDES, so leaving it would resolve XOM to the new
+    # holdco CIK and silently defeat the pin below. Restore it in early 2027 when
+    # the CIK_OVERRIDES entry is retired.
     "Greenbrier": "GBX",
     "US Foods": "USFD",
     "Factset": "FDS",
@@ -182,7 +178,48 @@ TICKER_OVERRIDES = {
     "Meta": "META",
     "Mettler Toledo": "MTD",
     "Uber": "UBER",
-    # Continental Resources went private in 2022 — no current filings; stays on ITEP data.
+}
+
+# Companies that can't be reached through company_tickers.json at all, pinned
+# straight to their CIK. A TICKER_OVERRIDES entry only helps when the ticker is
+# actually IN company_tickers.json — that file lists exchange-listed tickers, so
+# it has nothing to offer a company with no listed ticker, and it occasionally
+# drops a listed one outright. Both cases land here instead.
+#
+# Verify a CIK on EDGAR before adding it. A wrong CIK doesn't fail loudly — it
+# silently ships another company's tax figures under this company's name.
+CIK_OVERRIDES = {
+    # Absent from company_tickers.json entirely (checked 2026-08-17: 10,396
+    # entries, no "AEP" ticker and no CIK 4904), even though AEP is very much
+    # listed — submissions.json reports ticker AEP on Nasdaq, 10-K filed
+    # 2026-02-12, 10-Q 2026-07-30. The ticker file is the broken link here, not
+    # the company, so pin the CIK and stop depending on that file for AEP.
+    "American Electric Power": 4904,
+    # Private since 2022 (Form 25-NSE 2022-11-23, Form 15-12G 2023-01-03) and so
+    # has no ticker to look up — but it still files: 10-K 2026-02-23, 10-Q
+    # 2026-07-31, with fresh FY2025 XBRL. Public debt keeps the Exchange Act
+    # reporting obligation alive. Continued 10-K filing is what qualifies a
+    # company here, not whether its stock trades — see demotion_check.py.
+    "Continental Resources": 732834,
+    # PINNED TO THE PREDECESSOR CIK. Exxon reorganized into a holding company
+    # structure on 2026-07-01 (Form 8-K12B, successor registrant). Ticker XOM now
+    # maps to the new holdco, CIK 2115436, which has filed one 10-Q and carries
+    # no annual tax history at all — so resolving by ticker SUCCEEDED, found no
+    # FY data, and silently dropped Exxon to ITEP figures without ever showing up
+    # in the UNRESOLVED log. CIK 34088 holds the real annual history: FY2025
+    # domestic pretax $11.0B and buybacks $20.3B, both confirmed present.
+    #
+    # Caveat, so nobody reads more into this pin than it does: 34088 is missing
+    # CurrentFederalTaxExpenseBenefit, so Exxon still falls back to ITEP for the
+    # tax rate itself. This recovers pretax income and buybacks, not the federal
+    # tax figure.
+    #
+    # RE-CHECK IN EARLY 2027, once the holdco files its first full 10-K (FY2026).
+    # At that point the annual history moves to 2115436, and this pin becomes the
+    # thing making Exxon stale rather than the thing fixing it — delete it then
+    # and let the ticker resolve normally. demotion_check.py will keep flagging
+    # 2115436 as a successor entity until that first 10-K lands.
+    "Exxon Mobil": 34088,
 }
 
 # ---------------------------------------------------------------------------
@@ -237,6 +274,11 @@ def resolve_cik(name, ticker, by_ticker, by_name):
     override = TICKER_OVERRIDES.get(name)
     if override and override.upper() in by_ticker:
         return by_ticker[override.upper()], True
+    # Checked after the ticker paths so a live ticker always wins, but before
+    # name matching so a hand-verified CIK beats any fuzzy match.
+    cik_override = CIK_OVERRIDES.get(name)
+    if cik_override:
+        return cik_override, True
     key = normalize_name(name)
     if key in by_name:
         return by_name[key], False
@@ -752,7 +794,11 @@ def main():
         for n in http_fallback:
             print(f"  - {n}")
     if unresolved:
-        print(f"\nUNRESOLVED ({len(unresolved)}) — add a ticker to TICKER_OVERRIDES for each:")
+        print(f"\nUNRESOLVED ({len(unresolved)}) — kept on ITEP data. For each, check "
+              f"EDGAR before deciding:")
+        print(f"  still listed  -> add its ticker to TICKER_OVERRIDES")
+        print(f"  still filing 10-Ks but no ticker -> add its CIK to CIK_OVERRIDES")
+        print(f"  stopped filing -> run demotion_check.py, then drop it from the config")
         for n in unresolved:
             print(f"  - {n}")
     if no_data:
