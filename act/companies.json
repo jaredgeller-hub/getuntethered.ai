@@ -1154,6 +1154,7 @@
   },
   "exxon.com": {
     "actionUrl": "https://getuntethered.ai/act?c=exxonmobil",
+    "buybacks": "$20.3B",
     "domain": "exxon.com",
     "federalRate": "21.0%",
     "federalRateNum": 21.0,
@@ -1166,6 +1167,7 @@
   },
   "exxonmobil.com": {
     "actionUrl": "https://getuntethered.ai/act?c=exxonmobil",
+    "buybacks": "$20.3B",
     "domain": "exxonmobil.com",
     "federalRate": "21.0%",
     "federalRateNum": 21.0,
@@ -1863,6 +1865,7 @@
   },
   "mobil.com": {
     "actionUrl": "https://getuntethered.ai/act?c=exxonmobil",
+    "buybacks": "$20.3B",
     "domain": "mobil.com",
     "federalRate": "21.0%",
     "federalRateNum": 21.0,
