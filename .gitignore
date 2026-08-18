@@ -6,3 +6,6 @@ companyfacts.zip
 
 # Quarterly demotion-check output — regenerated on every run, not a source file
 demotion-flags.json
+
+# macOS Finder metadata
+.DS_Store
