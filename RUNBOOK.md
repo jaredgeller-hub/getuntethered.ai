@@ -192,16 +192,54 @@ the company it's mapped to, hunting specifically for spin-offs, divestitures,
 acquisitions and renames. A wrong mapping publishes the wrong company's tax data
 on someone's website — the worst failure this product can have.
 
+### Before assigning a domain to a post-Form 25/15 filer
+
+Some companies file Form 25/15 (delisted, deregistered) but keep filing 10-Ks
+anyway — Continental Resources is the worked example, detailed below. These
+resolve cleanly and SEC data keeps arriving, so nothing in the pipeline flags
+them, and one current-looking field makes mapping a domain feel safe.
+
+Before assigning a domain to one of these, manually check that **every displayed
+field is actually current**, not just the tax rate. Fields come from independent
+paths — a record can be ITEP on the rate and live SEC on buybacks at the same
+time — so freshness has to be confirmed per field, and `dataSource` won't tell
+you. Buybacks are the usual trap: after a company goes private there's no new
+activity to report, so the last figure sits there looking current. Confirm the
+domain won't go live carrying a misleadingly old number.
+
 ### Known pending, re-check when they close
 - `websterbank.com` — Webster Financial being acquired by Banco Santander
 - `dominionenergy.com` — NextEra acquisition, ~2027 close
 - `amwater.com` — merging with Essential Utilities, but American Water survives,
   so this one should stay correct
 
-### Permanently unresolved (correct, not a bug)
-Sealed Air, Coterra Energy, Continental Resources. No longer file publicly.
-They keep their last ITEP figures and have no domains mapped, so they don't
-surface in the extension.
+### Removed entirely (correct, not a bug)
+Sealed Air and Coterra Energy are gone from `companies_config.json` — 257 entries,
+neither present. They no longer file publicly and they carry no figures anywhere,
+ITEP or otherwise.
+
+### Delisted but still filing — Continental Resources (resolves fine)
+Not unresolved, despite living in this list for a while. Continental filed a Form
+25-NSE (Nov 2022) and a Form 15-12G (Jan 2023) and went private, but public debt
+keeps its Exchange Act reporting obligation alive: 10-K 2026-02-23, 10-Q
+2026-07-31, fresh FY2025 XBRL. It has no ticker to look up, so it's pinned by CIK
+in `CIK_OVERRIDES` (732834) and resolves cleanly — the last run reported zero
+unresolved. Continued 10-K filing is the qualifying signal, not the listing;
+`demotion_check.py` encodes that rule and cites this company as the example.
+
+Its record is **mixed-source**, which is the part to understand before mapping a
+domain to it:
+- **Rate — ITEP, 8.48%.** EDGAR yields no usable domestic pretax + federal tax
+  pair, so `classify()` falls back and the format stays `rate_only`.
+- **Buybacks — live SEC, $127M.** Pulled from EDGAR via the CIK pin, on a path
+  completely independent of the rate.
+- **`dataSource` reads `ITEP` and proves nothing.** It's copied from the config at
+  `classify()` and never reassigned anywhere in `refresh_data.py`, so it does not
+  tell you which path the record actually took. Read the fields, not this label.
+
+Its `domains` list is empty, so it doesn't reach `companies.json` (238 domain-keyed
+entries) and doesn't surface in the extension today. If you ever map one, see the
+freshness check above.
 
 ---
 
